@@ -1,63 +1,61 @@
 <ul>
 {% for bib in site.data.bibs %}
 	{% if bib.type != include.type %} {% continue %} {% endif %}
-	<div class="bibitem">
-		<li>
-			<span class="title"><a id="{{ bib.id }}">{{ bib.title }}</a></span>
-			<br/>
-			<span class="author">{{ bib.author }}</span>
-			<br/>
-			{% if bib.booktitle %}
-				<span class="booktitle">{{ bib.booktitle }}</span>{% unless bib.booktitle_short %},{% endunless %}
+	<li class="bibitem">
+		<span class="title"><a id="{{ bib.id }}">{{ bib.title }}</a></span>
+		<br/>
+		<span class="author">{{ bib.author }}</span>
+		<br/>
+		{% if bib.booktitle %}
+			<span class="booktitle">{{ bib.booktitle }}</span>{% unless bib.booktitle_short %},{% endunless %}
+		{% endif %}
+		{% if bib.booktitle_short %}
+			(<span class="booktitle_short">{{ bib.booktitle_short }}</span>),
+		{% endif %}
+		{% if bib.series %}
+			<span class="series">{{ bib.series }}</span>{% if bib.volume %} {% else %},{% endif %}
+			{% if bib.volume %}
+				<span class="volume">{{ bib.volume }}</span>{% if bib.pages %},{% else %}.{% endif %}
 			{% endif %}
-			{% if bib.booktitle_short %}
-				(<span class="booktitle_short">{{ bib.booktitle_short }}</span>),
-			{% endif %}
-			{% if bib.series %}
-				<span class="series">{{ bib.series }}</span>{% if bib.volume %} {% else %},{% endif %}
-				{% if bib.volume %}
-					<span class="volume">{{ bib.volume }}</span>{% if bib.pages %},{% else %}.{% endif %}
-				{% endif %}
-			{% endif %}
-			{% if bib.pages %}
-				pp. <span class="pages">{{ bib.pages }}</span>.
-			{% endif %}
-			{% if bib.publisher %}
-				<span class="publisher">{{ bib.publisher }}</span>,
-			{% endif %}
-			{% if bib.institution %}
-				<span class="institution">{{ bib.institution }}</span>,
-			{% endif %}
-			{% if bib.month %}
-				<span class="month">{{ bib.month }}</span>
-			{% endif %}
-			{% if bib.year %}
-				<span class="year">{{ bib.year }}</span>.
-			{% endif %}
-			<br/>
-			{% if bib.uri %}
-				<span class="link"><a href="{{ bib.uri }}">URI</a></span>
-			{% endif %}
-			{% if bib.doi %}
-				<span class="link"><a href="{{ bib.doi }}">DOI</a></span>
-			{% endif %}
-			{% if bib.pdf %}
-				<span class="link"><a href="{{ bib.pdf }}">PDF</a></span>
-			{% endif %}
-			{% if bib.project %}
-				<span class="link"><a href="{{ bib.project }}">Project</a></span>
-			{% endif %}
-			{% if bib.slides %}
-				<span class="link"><a href="{{ bib.slides }}">Slides</a></span>
-			{% endif %}
-			{% if bib.abstract %}
-				<div class="abstract">
-					{% for para in bib.abstract %}
-						<p> {{ para }}</p>
-					{% endfor %}
-				</div>
-			{% endif %}
-		</li>
-	</div>
+		{% endif %}
+		{% if bib.pages %}
+			pp. <span class="pages">{{ bib.pages }}</span>.
+		{% endif %}
+		{% if bib.publisher %}
+			<span class="publisher">{{ bib.publisher }}</span>,
+		{% endif %}
+		{% if bib.institution %}
+			<span class="institution">{{ bib.institution }}</span>,
+		{% endif %}
+		{% if bib.month %}
+			<span class="month">{{ bib.month }}</span>
+		{% endif %}
+		{% if bib.year %}
+			<span class="year">{{ bib.year }}</span>.
+		{% endif %}
+		<br/>
+		{% if bib.uri %}
+			<span class="link"><a href="{{ bib.uri }}">URI</a></span>
+		{% endif %}
+		{% if bib.doi %}
+			<span class="link"><a href="{{ bib.doi }}">DOI</a></span>
+		{% endif %}
+		{% if bib.pdf %}
+			<span class="link"><a href="{{ bib.pdf }}">PDF</a></span>
+		{% endif %}
+		{% if bib.project %}
+			<span class="link"><a href="{{ bib.project }}">Project</a></span>
+		{% endif %}
+		{% if bib.slides %}
+			<span class="link"><a href="{{ bib.slides }}">Slides</a></span>
+		{% endif %}
+		{% if bib.abstract %}
+			<div class="abstract">
+				{% for para in bib.abstract %}
+					<p> {{ para }}</p>
+				{% endfor %}
+			</div>
+		{% endif %}
+	</li>
 {% endfor %}
 </ul>
