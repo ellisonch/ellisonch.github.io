@@ -1,0 +1,33 @@
+---
+layout: page
+title: Curriculum Vitae
+---
+
+<h2>Basic Info</h2>
+Chucky Ellison
+<br/>New York, NY
+<br/><a href="mailto:{{ site.data.config.email }}">{{ site.data.config.email }}</a>
+
+<h2>Experience as Software Engineer</h2>
+{% include experience.html %}
+
+<h2>Teaching</h2>
+{% include teaching.html %}
+
+<h2>Education</h2>
+{% include education.html %}
+
+<h2>Open Source Projects</h2>
+{% include projects.html %}
+
+
+<h2>Publications</h2>
+<h3>Theses</h3>
+{% include bib.html type="thesis" %}
+<h3>Conference Papers</h3>
+{% include bib.html type="conference" %}
+<h3>Workshop Papers</h3>
+{% include bib.html type="workshop" %}
+<h3>Technical Reports</h3>
+{% include bib.html type="tr" %}
+

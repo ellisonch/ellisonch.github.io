@@ -1,0 +1,73 @@
+---
+---
+
+@import "_clearfix";
+
+// * {
+// 	margin: 0;
+// }
+
+// div {
+// 	border: 1px solid;
+// }
+
+h1 {
+	font-size: 1.5em;
+}
+h2 {
+	font-size: 1.2em;
+}
+h3 {
+	font-size: 1em;
+}
+
+html {
+	font-size: 100%;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+	width: 40em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.site-name {
+	margin: 0;
+}
+.site-info {
+	float: left;
+}
+nav {
+	float: right;
+	a {
+		// put spacing between nav links
+		margin-left: 20px;
+	}
+}
+
+.wrapper-footer {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	background-color: #eee;
+}
+.footer {
+	padding: 20px 0;
+	text-align: center;
+}
+
+.wrapper-masthead {
+	margin-bottom: 50px;
+}
+.masthead {
+	padding: 20px 0;
+	border-bottom: 1px solid #eee;
+}
+
+.portrait {
+	padding: 1em;
+	text-align: center;
+}
+
+@import "_bib";
