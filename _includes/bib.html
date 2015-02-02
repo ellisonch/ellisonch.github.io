@@ -33,6 +33,9 @@
 		{% if bib.year %}
 			<span class="year">{{ bib.year }}</span>.
 		{% endif %}
+		{% if bib.notes %}
+			<span class="notes">{{ bib.notes }}</span>.
+		{% endif %}
 		<br/>
 		{% if bib.uri %}
 			<span class="link"><a href="{{ bib.uri }}">URI</a></span>
