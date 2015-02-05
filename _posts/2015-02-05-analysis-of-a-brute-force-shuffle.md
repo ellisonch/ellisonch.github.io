@@ -29,7 +29,7 @@ void brute_shuffle(int deck[static 52]) {
 </figure>
 
 This algorithm works and is relatively simple.
-In contrast, here is a much fast algorithm ([Fisher-Yates](http://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)) for doing the same thing:
+In contrast, here is a much faster algorithm ([Fisher-Yates](http://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)) for doing the same thing:
 
 <figure>
 {% highlight c %}
@@ -73,7 +73,8 @@ We can calculate the [expected number](http://en.wikipedia.org/wiki/Expected_val
 
 $$E(m, n) = \sum\limits_{k=1}^\infty k \left(\frac{m}{n}\right)^{k-1} \frac{n - m}{n}$$
 
-Now so far, we've only taken into consideration a particular \\(m\\).  To extend this for all \\(m\\), we add another sum:
+So far, we've only taken into consideration a particular \\(m\\).
+To extend this for all \\(m\\), we add another sum:
 
 $$E(n) = \sum\limits_{m=0}^{n-1}{\sum\limits_{k=1}^\infty k \left(\frac{m}{n}\right)^{k-1} \frac{n - m}{n}}$$
 
