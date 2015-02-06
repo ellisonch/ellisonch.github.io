@@ -19,6 +19,7 @@ You'll have to consider how to add and remove instances dynamically, in case you
 You'll need ways to suspend and resume operation in case you want to upgrade code in running instances.
 In all these cases you'll have the burden of keeping track of where that instance left off, starting it back in the right place, and making sure no other instances are searching the same part of the state space.
 You'll need to make sure the instances don't run out of work, even if they're on heterogeneous hardware.
+On top of all that, you better make sure your solution is correct---how bad would it be if you spent hundreds of years of computation time but skipped over the solution because of a bug?
 Whew.
 What a headache.
 
