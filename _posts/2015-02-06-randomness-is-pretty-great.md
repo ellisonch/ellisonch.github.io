@@ -28,8 +28,9 @@ Each instance will simply generate random numbers to work on, and run the functi
 The bulk of the code becomes:
 {% highlight c %}
 while (true) {
-	if (f(rand()) {
-		success();
+	int r = rand();
+	if (f(r) {
+		success(r);
 		break;
 	}
 }
