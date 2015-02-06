@@ -80,7 +80,7 @@ $$E(n) = \sum\limits_{m=0}^{n-1}{\sum\limits_{k=1}^\infty k \left(\frac{m}{n}\ri
 
 Now thanks to some help from [Wolfram Alpha](http://www.wolframalpha.com/), this formula is equal to:[^1]
 
-[^1]: I couldn't figure out how to get such a nice result directly, without the help of WA, but if anyone else can, let me know!
+[^1]: I couldn't figure out how to get such a nice result directly, without the help of WA, but if anyone else can, let me know!  I know that by starting with \\(E(m, n) = 1 \cdot \frac{n-m}{n} + (E(m, n) + 1)\cdot \frac{m}{n}\\), you can get \\(E(m, n) = \frac{n}{n-m}\\), but I still can't figure out handling all \\(m\\)s.  Put simply, how can you show $$\sum\limits_{m=0}^{n-1} {\frac{1}{n-m}} = \sum\limits_{i=1}^{n}{\frac{1}{i}}$$?
 
 $$
 \begin{equation}%\tag{Exp-simp}
