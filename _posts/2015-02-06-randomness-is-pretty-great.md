@@ -71,6 +71,7 @@ $$\text{PW} = \frac{E_{\text{rand}}}{E_{\text{linear}}} = \frac{\frac{n}{m}}{\fr
 So, for a set of size 100, when there's a single needle, the proportional work done is \\(\frac{1 \cdot 100 + 100}{1 \cdot 100 + 1} \approx 1.98\\), or just under twice as much work.
 In fact, it's easy to see that \\(\text{PW}\\) is never more than 2, since:
 
+<!-- 
 $$
 \begin{align*}
 \frac{n}{n+2} &\lt m && \text{since $m \ge 1$}\\
@@ -79,14 +80,21 @@ nm + n &\lt 2nm + 2m \\
 \frac{nm + n}{nm + m} &\lt 2 \\
 \end{align*}
 $$
+ -->
 
+$$
+\begin{align*}
+PW &= \frac{nm + n}{nm + m} \\
+ &= \frac{(m + 1)n}{m(n + 1)} \\
+&= \frac{m + 1}{m} \cdot \frac{n}{n+1} \\
+&< \frac{m + 1}{m} && \text{since $\frac{n}{n+1} < 1$}\\
+&< 2 && \text{when $m = 1$}
+\end{align*}
+$$
 
 This means no matter what, on average, the random strategy will do less than twice the work of the linear search.
-In fact, as \\(n\\) grows large:
-
-$$\lim_{n \to \infty} PW = \lim_{n \to \infty} \frac{nm + n}{nm + m} = 1 + \frac{1}{m}$$
-
-So for large \\(n\\) (and it converges pretty quickly), the amount of extra work is only about \\(\frac{1}{m}\\).
+The \\(\frac{m+1}{m}\\) (or \\(1 + \frac{1}{m}\\)) bound is even tighter.
+This bound means the amount of extra work is always less than \\(\frac{1}{m}\\).
 
 This is a really neat result, because you'll never do more than twice the necessary work (in the average case), and having more needles shrinks the overhead very quickly!
 My vote is to throw twice the hardware at the problem, and take an early day.
