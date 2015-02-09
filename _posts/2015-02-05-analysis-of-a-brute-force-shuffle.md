@@ -67,7 +67,7 @@ The expected number of tries should satisfy the following equation:
 
 $$E(m, n) = 1 \cdot \frac{n-m}{n} + (E(m, n) + 1)\cdot \frac{m}{n}$$
 
-Doing the algebra gives:
+This loosely says, the expected value is Doing the algebra gives:
 
 $$E(m, n) = \frac{n}{n-m}$$
 
@@ -77,7 +77,11 @@ $$E(n) = \sum\limits_{m=0}^{n-1} {\frac{n}{n-m}} = n \sum\limits_{m=0}^{n-1} {\f
 
 By doing a substitution \\(i = n-m\\) on \\(\sum\limits_{m=0}^{n-1} {\frac{1}{n-m}}\\), we get:[^1]
 
-$$E(n) = n \sum\limits_{i=1}^{n} {\frac{1}{i}}$$
+$$
+\begin{equation}\label{eq:exp-simp}
+E(n) = n \sum\limits_{i=1}^{n} {\frac{1}{i}}
+\end{equation}
+$$
 
 
 [^1]: Thanks to [Szabolcs Iván](http://www.inf.u-szeged.hu/~szabivan/) for giving me the idea behind this step.
