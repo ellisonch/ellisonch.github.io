@@ -12,6 +12,10 @@ version: v1.0.0
 gems:
     - jekyll-sitemap
 
+# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# Used for Sitemap.xml and your RSS feed
+url: http://www.freefour.com
+
 # Set the Sass partials directory, as we're using @imports
 sass:
   sass_dir: css/_scss
