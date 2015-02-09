@@ -8,6 +8,10 @@ email: cme@freefour.com
 # Short bio or description (used in meta)
 description: Personal Website of Chucky Ellison
 
+blogName: Chucky Ellison's Blog
+
+blogDescription: Musings on interesting and nerdy stuff
+
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 # avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
