@@ -1,0 +1,135 @@
+---
+layout: page
+---
+Helper for <a href="/analysis-of-a-brute-force-shuffle">Analysis of a Brute-Force Shuffle</a> blog post
+{% highlight c %}
+// Copyright © 2015 Chucky Ellison
+
+// The MIT License (MIT)
+
+// Permission is hereby granted, free of charge, to any person obtaining a copy of
+// this software and associated documentation files (the "Software"), to deal in
+// the Software without restriction, including without limitation the rights to
+// use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+// the Software, and to permit persons to whom the Software is furnished to do so,
+// subject to the following conditions:
+
+// The above copyright notice and this permission notice shall be included in all
+// copies or substantial portions of the Software.
+
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+// FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+// COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+// IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+// CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+#include <stdlib.h>
+#include <time.h>
+#include <assert.h>
+#include <stdio.h>
+#include <limits.h>
+#include <stdint.h>
+
+#define BENCH_SIZE 10
+#define N_MAX RAND_MAX
+
+static unsigned long long int _rand_count = 0;
+
+int rand_n(int n);
+
+typedef struct stats {
+	double t_ms;
+	double rand_ct;
+} stats;
+
+void brute_shuffle(int n, int deck[static n]) {
+	for (int i = 0; i < n; i++) {
+		deck[i] = 0;
+	}
+
+	for (int card = 1; card <= n; card++) {
+		int pos;
+		do {
+			pos = rand_n(n);
+		} while (deck[pos] != 0);
+		deck[pos] = card;
+	}
+}
+
+void fisher_yates_shuffle(int n, int deck[static n]) {
+	for (int i = 0; i < n; i++) {
+		deck[i] = i + 1;
+	}
+	for (int i = n - 1; i > 0; i--) {
+		int s = rand_n(i + 1);
+		int temp = deck[s];
+		deck[s] = deck[i];
+		deck[i] = temp;
+	}
+}
+
+void bench(int n, void (*shuffle)(int n, int deck[static n]), stats* s) {
+	int deck[n];
+
+	_rand_count = 0;
+	clock_t t_start = clock();
+	for (int i = 0; i < BENCH_SIZE; i++) {
+		shuffle(n, deck);
+	}
+	clock_t t_end = clock();
+	double t_ms = (double)(t_end - t_start) / (CLOCKS_PER_SEC / 1000.0);
+	s->t_ms = t_ms / (double)BENCH_SIZE;
+	s->rand_ct = _rand_count / (double)BENCH_SIZE;
+}
+
+int main(void) {
+	srand(0);
+
+	printf("n,FY,BR,rand_fy,rand_br\n");
+	for (int i = 10; i < N_MAX; i += 0.15 * i) {
+		stats s_fy;
+		bench(i, &fisher_yates_shuffle, &s_fy);
+
+		stats s_br;
+		bench(i, &brute_shuffle, &s_br);
+
+		double sum = 0.0;
+		for (int v = 1; v <= i; v++) {
+			sum += 1.0 / v;
+		}
+		double exp = sum * i;
+
+		printf("%i,%f,%f,%f,%f,%f\n", i, s_fy.t_ms, s_br.t_ms, s_fy.rand_ct, s_br.rand_ct, exp);
+	}
+}
+
+// returns a uniformly distributed random number in [0, n)
+// I haven't verified that this is really uniform
+int rand_n(int n) {
+	assert(n > 0);
+
+	assert(_rand_count < ULLONG_MAX);
+	_rand_count++;
+
+	uint64_t r1 = rand();
+	uint64_t r2 = rand();
+	uint64_t r3 = rand();
+	uint64_t r4 = rand();
+	uint64_t r5 = rand();
+	// we know we have at least 15 good bits since RAND_MAX is at least 32k
+	uint64_t r64 = (((((((r1 << 15) + r2) << 15) + r3) << 15) + r4) << 15) + r5;
+
+	double rd = r64 / (double)UINT64_MAX;
+	assert(rd >= 0.0);
+	assert(rd <= 1.0);
+
+	int res = rd * n;
+	if (res == n) {
+		res = n - 1;
+	}
+	assert(res >= 0);
+	assert(res < n);
+	return res;
+}
+{% endhighlight %}

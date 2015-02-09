@@ -162,6 +162,6 @@ This really surprised me.
 Naively, I thought that due to the random nature of the algorithm, the runtime might have an exponential or even factorial component.
 There's probably very little reason[^2] to use the brute-force algorithm over Fisher-Yates, but \\(\mathcal{O}(n\ln(n))\\) ain't that bad.
 
-The code I used to help benchmark these algorithms can be found [here](/code/shuffle.c).
+The code I used to help benchmark these algorithms can be found [here](/code/shuffle.html).
 
 [^2]: BF does perform half as many writes as FY, so perhaps if writes are *really* expensive...
