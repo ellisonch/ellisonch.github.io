@@ -65,8 +65,24 @@ nav {
 	}
 }
 
+.post-nav {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	border-top: 1px solid #ddd;
+}
+
 .footnotes {
 	border-top: 1px solid #ddd;
+}
+
+.other-posts-text {
+	text-align: center;
+}
+.link-next {
+	float: right;
+}
+.link-prev {
+	float: left;
 }
 
 .wrapper-footer {
