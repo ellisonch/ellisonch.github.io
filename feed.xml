@@ -14,7 +14,7 @@
 					<dc:creator>{{ site.data.config.author | xml_escape }}</dc:creator>
 				{% endif %}        
 				{% if post.excerpt %}
-					<description>{{ post.excerpt | xml_escape }}&#8230;{{ '<p>Visit <a href="http://www.freefour.com/">www.freefour.com</a> for the rest of the article</p>' | xml_escape }}</description>
+					<description>{{ post.excerpt | xml_escape }}&#8230;{{ '<p><a href="' | xml_escape }}{{ site.url }}{{ post.url }}{{ '">Visit the site</a> for the rest of the article.</p>' | xml_escape }}</description>
 				{% else %}
 					<description>{{ post.content | xml_escape }}</description>
 				{% endif %}
