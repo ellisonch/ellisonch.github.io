@@ -60,35 +60,30 @@ Getting a new random number is probably the most expensive part of these calcula
 ### Brute-force
 
 For the brute-force algorithm, the chances of getting a collision depend on how many of the slots in the deck are already full.
-Let's say \\(m\\) of the slots already have cards, and \\(52-m\\) slots are free.
-Since the chance of finding a free slot in exactly \\(k\\) calls means getting \\(k-1\\) collisions then succeeding once, the probability is:
+Let's say we have a deck of size \\(n\\) where \\(m\\) of the slots already have cards and \\(52-m\\) slots are free.
+The expected number of tries should satisfy the following equation:
 
-$$p(k, m) = \left(\frac{m}{52}\right)^{k-1} \frac{52 - m}{52}$$
+<!-- Since the chance of finding a free slot in exactly \\(k\\) calls means getting \\(k-1\\) collisions then succeeding once, the probability is: -->
 
-We might want to reason about shuffling more than 52 cards, so let's generalize this formula to \\(n\\) cards:
+$$E(m, n) = 1 \cdot \frac{n-m}{n} + (E(m, n) + 1)\cdot \frac{m}{n}$$
 
-$$p(k, m, n) = \left(\frac{m}{n}\right)^{k-1} \frac{n - m}{n}$$
+Doing the algebra gives:
 
-We can calculate the [expected number](http://en.wikipedia.org/wiki/Expected_value) of calls to <code>rand_n()</code> by adding up all the products of the number of calls \\(k\\) with the probability it took that many calls \\(p(k, m, n)\\):
+$$E(m, n) = \frac{n}{n-m}$$
 
-$$E(m, n) = \sum\limits_{k=1}^\infty k \left(\frac{m}{n}\right)^{k-1} \frac{n - m}{n}$$
+We need to throw a sum around it to take into account all the different \\(m\\)s:
 
-So far, we've only taken into consideration a particular \\(m\\).
-To extend this for all \\(m\\), we add another sum:
+$$E(n) = \sum\limits_{m=0}^{n-1} {\frac{n}{n-m}} = n \sum\limits_{m=0}^{n-1} {\frac{1}{n-m}}$$
 
-$$E(n) = \sum\limits_{m=0}^{n-1}{\sum\limits_{k=1}^\infty k \left(\frac{m}{n}\right)^{k-1} \frac{n - m}{n}}$$
+By doing a substitution \\(i = n-m\\) on \\(\sum\limits_{m=0}^{n-1} {\frac{1}{n-m}}\\), we get:[^1]
 
-Now thanks to some help from [Wolfram Alpha](http://www.wolframalpha.com/), this formula is equal to:[^1]
+$$E(n) = n \sum\limits_{i=1}^{n} {\frac{1}{i}}$$
 
-[^1]: I couldn't figure out how to get such a nice result directly, without the help of WA, but if anyone else can, let me know!  I know that by starting with \\(E(m, n) = 1 \cdot \frac{n-m}{n} + (E(m, n) + 1)\cdot \frac{m}{n}\\), you can get \\(E(m, n) = \frac{n}{n-m}\\), but I still can't figure out handling all \\(m\\)s.  Put simply, how can you show $$\sum\limits_{m=0}^{n-1} {\frac{1}{n-m}} = \sum\limits_{i=1}^{n}{\frac{1}{i}}$$?
 
-$$
-\begin{equation}%\tag{Exp-simp}
-E(n) = n \sum\limits_{i=1}^{n}{\frac{1}{i}}
-\label{eq:exp-simp}
-\end{equation}
-$$
+[^1]: Thanks to [Szabolcs Iván](http://www.inf.u-szeged.hu/~szabivan/) for giving me the idea behind this step.
 
+
+Another way to see this is by noticing that the first adds together \\(\frac{1}{n} + \frac{1}{n-1} + \frac{1}{n-2} + \cdots + \frac{1}{2} + \frac{1}{1}\\), while the second does the same but in reverse.
 The summation above happens to be the \\(n\\)th [harmonic number](http://en.wikipedia.org/wiki/Harmonic_number), and so in the limit, the whole expression is approximately equal to:
 
 $$E(n) \approx n (\gamma + \ln(n))$$
