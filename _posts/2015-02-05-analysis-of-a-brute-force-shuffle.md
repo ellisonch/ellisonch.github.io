@@ -60,7 +60,7 @@ Getting a new random number is probably the most expensive part of these calcula
 ### Brute-force
 
 For the brute-force algorithm, the chances of getting a collision depend on how many of the slots in the deck are already full.
-Let's say we have a deck of size \\(n\\) where \\(m\\) of the slots already have cards and \\(52-m\\) slots are free.
+Let's say we have a deck of size \\(n\\) where \\(m\\) of the slots already have cards and \\(n-m\\) slots are free.
 The expected number of tries should satisfy the following equation:
 
 <!-- Since the chance of finding a free slot in exactly \\(k\\) calls means getting \\(k-1\\) collisions then succeeding once, the probability is: -->
