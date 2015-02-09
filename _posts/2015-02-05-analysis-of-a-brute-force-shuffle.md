@@ -163,4 +163,6 @@ There's probably very little reason[^2] to use the brute-force algorithm over Fi
 
 The code I used to help benchmark these algorithms can be found [here](/code/shuffle.html).
 
+After I wrote this post, I realized the brute-force shuffle is related to the [Coupon Collector's Problem](http://en.wikipedia.org/wiki/Coupon_collector%27s_problem).  The link provides a similar derivation for the expected value, as well as a calculation of the variance.
+
 [^2]: BF does perform half as many writes as FY, so perhaps if writes are *really* expensive...
