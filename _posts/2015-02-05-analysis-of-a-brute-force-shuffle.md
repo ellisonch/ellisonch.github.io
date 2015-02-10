@@ -63,11 +63,9 @@ For the brute-force algorithm, the chances of getting a collision depend on how 
 Let's say we have a deck of size \\(n\\) where \\(m\\) of the slots already have cards and \\(n-m\\) slots are free.
 The expected number of tries should satisfy the following equation:
 
-<!-- Since the chance of finding a free slot in exactly \\(k\\) calls means getting \\(k-1\\) collisions then succeeding once, the probability is: -->
-
 $$E(m, n) = 1 \cdot \frac{n-m}{n} + (E(m, n) + 1)\cdot \frac{m}{n}$$
 
-This loosely says, the expected value is Doing the algebra gives:
+Doing the algebra gives:
 
 $$E(m, n) = \frac{n}{n-m}$$
 
