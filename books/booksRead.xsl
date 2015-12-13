@@ -80,6 +80,9 @@
 </xsl:template>
 
 <xsl:template match="Date">
+	<xsl:attribute name="sorttable_customkey">
+		<xsl:value-of select="."/>
+	</xsl:attribute>
 	<xsl:call-template name="FormatDate">
 		<xsl:with-param name="DateTime" select="."/>
 	</xsl:call-template>
@@ -99,16 +102,16 @@
 	<xsl:variable name="day">
 		<xsl:value-of select="substring($DateTime,9,2)" />
 	</xsl:variable>
-	<xsl:if test="$month != 00">
-		<xsl:value-of select="$month"/>
-		<xsl:value-of select="'/'"/>
-	</xsl:if>
-	<xsl:if test="$day != 00">
-		<xsl:value-of select="$day"/>
-		<xsl:value-of select="'/'"/>
-	</xsl:if>
 	<xsl:if test="$year != 00">
 		<xsl:value-of select="$year"/>
+	</xsl:if>
+	<xsl:if test="$month != 00">
+		<xsl:value-of select="'/'"/>
+		<xsl:value-of select="$month"/>
+	</xsl:if>
+	<xsl:if test="$day != 00">
+		<xsl:value-of select="'/'"/>
+		<xsl:value-of select="$day"/>
 	</xsl:if>
 	<xsl:if test="$year = 00">
 		?
