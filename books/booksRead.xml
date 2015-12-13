@@ -1,0 +1,2422 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE freefour [
+<!ELEMENT freefour (book*)>
+<!ELEMENT book (Title, Tagline, AuthorL, AuthorF, Date, Pages, ISBN?, ASIN?, FakeISBN?, Notes?)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Tagline (#PCDATA)>
+<!ELEMENT AuthorL (#PCDATA)>
+<!ELEMENT AuthorF (#PCDATA)>
+<!ELEMENT Date (#PCDATA)>
+<!ELEMENT Pages (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT ASIN (#PCDATA)>
+<!ELEMENT FakeISBN (#PCDATA)>
+<!ELEMENT Notes (#PCDATA)>
+]>
+<?xml-stylesheet type="text/xsl" href="booksRead.xsl"?>
+
+<!--
+- Database: 'freefour'
+-->
+<freefour>
+	<!-- Table books -->
+	<book>
+		<Title>James and the Giant Peach</Title>
+		<Tagline></Tagline>
+		<AuthorL>Dahl</AuthorL>
+		<AuthorF>Roald</AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>119</Pages>
+		<ISBN>0-14-032871-8</ISBN>
+	</book>
+	<book>
+		<Title>1984</Title>
+		<Tagline></Tagline>
+		<AuthorL>Orwell</AuthorL>
+		<AuthorF>George</AuthorF>
+		<Date>1999-00-00</Date>
+		<Pages>268</Pages>
+		<ISBN>0-451-52493-4</ISBN>
+	</book>
+	<book>
+		<Title>20,000 Leagues Under the Sea</Title>
+		<Tagline></Tagline>
+		<AuthorL>Verne</AuthorL>
+		<AuthorF>Jules</AuthorF>
+		<Date>1995-00-00</Date>
+		<Pages>384</Pages>
+		<ISBN>9780760728505</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Adventures of Huckleberry Finn, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Twain</AuthorL>
+		<AuthorF>Mark</AuthorF>
+		<Date>1998-00-00</Date>
+		<Pages>336</Pages>
+		<ISBN>0-448-11000-8</ISBN>
+	</book>
+	<book>
+		<Title>Heart of Darkness</Title>
+		<Tagline></Tagline>
+		<AuthorL>Conrad</AuthorL>
+		<AuthorF>Joseph</AuthorF>
+		<Date>2000-00-00</Date>
+		<Pages>158</Pages>
+		<ISBN>0-451-52072-6</ISBN>
+	</book>
+	<book>
+		<Title>Age of Spiritual Machines, The</Title>
+		<Tagline>When Computers Exceed Human Intelligence</Tagline>
+		<AuthorL>Kurzweil</AuthorL>
+		<AuthorF>Raymond</AuthorF>
+		<Date>2000-00-00</Date>
+		<Pages>388</Pages>
+		<ISBN>0-14-028202-5</ISBN>
+	</book>
+	<book>
+		<Title>Alas, Babylon</Title>
+		<Tagline></Tagline>
+		<AuthorL>Frank</AuthorL>
+		<AuthorF>Pat</AuthorF>
+		<Date>1997-00-00</Date>
+		<Pages>323</Pages>
+		<ISBN>0-06-081254-0</ISBN>
+	</book>
+	<book>
+		<Title>All Quiet on the Western Front</Title>
+		<Tagline></Tagline>
+		<AuthorL>Remarque</AuthorL>
+		<AuthorF>Erich</AuthorF>
+		<Date>1997-00-00</Date>
+		<Pages>295</Pages>
+		<ISBN>0-449-21394-3</ISBN>
+	</book>
+	<book>
+		<Title>Amazing Real Life Coincidences</Title>
+		<Tagline></Tagline>
+		<AuthorL>Colligan</AuthorL>
+		<AuthorF>Douglas</AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>134</Pages>
+	</book>
+	<book>
+		<Title>Angels in America</Title>
+		<Tagline>Millenium Approaches</Tagline>
+		<AuthorL>Kushner</AuthorL>
+		<AuthorF>Tony</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>119</Pages>
+		<ISBN>1-55936-061-5</ISBN>
+	</book>
+	<book>
+		<Title>Copenhagen</Title>
+		<Tagline></Tagline>
+		<AuthorL>Frayn</AuthorL>
+		<AuthorF>Michael</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>132</Pages>
+		<ISBN>0-385-72079-3</ISBN>
+	</book>
+	<book>
+		<Title>Wit</Title>
+		<Tagline></Tagline>
+		<AuthorL>Edson</AuthorL>
+		<AuthorF>Margaret</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>85</Pages>
+		<ISBN>0-571-19877-5</ISBN>
+	</book>
+	<book>
+		<Title>Dr. Faustus</Title>
+		<Tagline></Tagline>
+		<AuthorL>Marlowe</AuthorL>
+		<AuthorF>Christopher</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>56</Pages>
+		<ISBN>978-0486282084</ISBN>
+	</book>
+	<book>
+		<Title>Animal Farm</Title>
+		<Tagline></Tagline>
+		<AuthorL>Orwell</AuthorL>
+		<AuthorF>George</AuthorF>
+		<Date>1996-00-00</Date>
+		<Pages>140</Pages>
+	</book>
+	<book>
+		<Title>Around the World in Eighty Days</Title>
+		<Tagline></Tagline>
+		<AuthorL>Verne</AuthorL>
+		<AuthorF>Jules</AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>240</Pages>
+	</book>
+	<book>
+		<Title>Atlas Shrugged</Title>
+		<Tagline></Tagline>
+		<AuthorL>Rand</AuthorL>
+		<AuthorF>Ayn</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>1075</Pages>
+	</book>
+	<book>
+		<Title>Bit and the Pendulum, The</Title>
+		<Tagline>From Quantum Computing to M Theory--The New Physics of Information</Tagline>
+		<AuthorL>Siegfried</AuthorL>
+		<AuthorF>Tom</AuthorF>
+		<Date>2001-10-18</Date>
+		<Pages>288</Pages>
+		<ISBN>9780471399742</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Black Like Me</Title>
+		<Tagline></Tagline>
+		<AuthorL>Griffin</AuthorL>
+		<AuthorF>John</AuthorF>
+		<Date>2000-00-00</Date>
+		<Pages>192</Pages>
+	</book>
+	<book>
+		<Title>Book of Greek Myths</Title>
+		<Tagline></Tagline>
+		<AuthorL>D'aulaires</AuthorL>
+		<AuthorF>Ingri</AuthorF>
+		<Date>1994-00-00</Date>
+		<Pages>192</Pages>
+	</book>
+	<book>
+		<Title>Bridge To Terabithia</Title>
+		<Tagline></Tagline>
+		<AuthorL>Paterson</AuthorL>
+		<AuthorF>Katherine</AuthorF>
+		<Date>1995-00-00</Date>
+		<Pages>144</Pages>
+	</book>
+	<book>
+		<Title>Brief History of Time, A</Title>
+		<Tagline></Tagline>
+		<AuthorL>Hawking</AuthorL>
+		<AuthorF>Steven</AuthorF>
+		<Date>2001-06-20</Date>
+		<Pages>212</Pages>
+		<ISBN>0553346148</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Call of the Wild</Title>
+		<Tagline></Tagline>
+		<AuthorL>London</AuthorL>
+		<AuthorF>Jack</AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>114</Pages>
+	</book>
+	<book>
+		<Title>Can Animals and Machines be Persons?</Title>
+		<Tagline></Tagline>
+		<AuthorL>Leiber</AuthorL>
+		<AuthorF>Justin</AuthorF>
+		<Date>1999-00-00</Date>
+		<Pages>76</Pages>
+		<ISBN>0-87220-002-7</ISBN>
+	</book>
+	<book>
+		<Title>Classic Philip Jose Farmer, The</Title>
+		<Tagline>1964-1973</Tagline>
+		<AuthorL>Farmer</AuthorL>
+		<AuthorF>Philip Jose</AuthorF>
+		<Date>2005-11-27</Date>
+		<Pages>207</Pages>
+		<ISBN>9780517555453</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Chaos</Title>
+		<Tagline>Making a New Science</Tagline>
+		<AuthorL>Gleick</AuthorL>
+		<AuthorF>James</AuthorF>
+		<Date>2001-05-28</Date>
+		<Pages>352</Pages>
+	</book>
+	<book>
+		<Title>Cognition</Title>
+		<Tagline>Exploring the Science of the Mind</Tagline>
+		<AuthorL>Reisberg</AuthorL>
+		<AuthorF>Daniel</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>500</Pages>
+		<ISBN>0-393-96925-8</ISBN>
+	</book>
+	<book>
+		<Title>Computer Hardware, System Software, and Architecture</Title>
+		<Tagline></Tagline>
+		<AuthorL>Luce</AuthorL>
+		<AuthorF></AuthorF>
+		<Date>1996-00-00</Date>
+		<Pages>0</Pages>
+	</book>
+	<book>
+		<Title>Country Year, A</Title>
+		<Tagline>Living the Questions</Tagline>
+		<AuthorL>Hubbell</AuthorL>
+		<AuthorF>Sue</AuthorF>
+		<Date>2000-00-00</Date>
+		<Pages>240</Pages>
+	</book>
+	<book>
+		<Title>Crash Course in Artificial Intelligence and Expert Systems</Title>
+		<Tagline></Tagline>
+		<AuthorL>Frenzel</AuthorL>
+		<AuthorF>Louis</AuthorF>
+		<Date>2001-09-06</Date>
+		<Pages>358</Pages>
+		<ISBN>9780672224430</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Critiques of God</Title>
+		<Tagline>Making the Case Against Belief in God</Tagline>
+		<AuthorL>Angeles</AuthorL>
+		<AuthorF>Peter</AuthorF>
+		<Date>2001-06-01</Date>
+		<Pages>371</Pages>
+		<ISBN>9781573921237</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Darkness Visible</Title>
+		<Tagline>A Memoir of Madness</Tagline>
+		<AuthorL>Styron</AuthorL>
+		<AuthorF>William</AuthorF>
+		<Date>1999-00-00</Date>
+		<Pages>84</Pages>
+	</book>
+	<book>
+		<Title>Data Compression</Title>
+		<Tagline>Techniques and Applications - Hardware and Software Considerations</Tagline>
+		<AuthorL>Held</AuthorL>
+		<AuthorF>Gilbert</AuthorF>
+		<Date>2001-09-16</Date>
+		<Pages>301</Pages>
+		<ISBN>9780471929413</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Data Compression</Title>
+		<Tagline>The Complete Reference</Tagline>
+		<AuthorL>Salomon</AuthorL>
+		<AuthorF>David</AuthorF>
+		<Date>2002-02-12</Date>
+		<Pages>792</Pages>
+		<ISBN>9780387406978</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Defeating Darwinism</Title>
+		<Tagline></Tagline>
+		<AuthorL>Johnson</AuthorL>
+		<AuthorF>Phillip</AuthorF>
+		<Date>2001-05-25</Date>
+		<Pages>131</Pages>
+	</book>
+	<book>
+		<Title>Doll's House, A</Title>
+		<Tagline></Tagline>
+		<AuthorL>Ibsen</AuthorL>
+		<AuthorF>Henrik</AuthorF>
+		<Date>1997-00-00</Date>
+		<Pages>0</Pages>
+	</book>
+	<book>
+		<Title>Dr. Jekyll and Mr. Hyde</Title>
+		<Tagline></Tagline>
+		<AuthorL>Stevenson</AuthorL>
+		<AuthorF>Robert</AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>82</Pages>
+	</book>
+	<book>
+		<Title>Duplicate, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Sleator</AuthorL>
+		<AuthorF>William</AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>154</Pages>
+	</book>
+	<book>
+		<Title>Engines of Creation</Title>
+		<Tagline>The Coming Era of Nanotechnology</Tagline>
+		<AuthorL>Drexler</AuthorL>
+		<AuthorF>K. Eric</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>320</Pages>
+	</book>
+	<book>
+		<Title>Enoch Arden, The Holy Grail, and Other Poems</Title>
+		<Tagline></Tagline>
+		<AuthorL>Tennyson</AuthorL>
+		<AuthorF>Alfred Lord</AuthorF>
+		<Date>2001-05-16</Date>
+		<Pages>126</Pages>
+		<Notes>
+			Hardcover
+			Riverside Literature Series
+			With Explanatory Notes
+			Copyright 1895, 1914
+			Houghton Mifflin Company
+			Riverside Press, The
+			Cambridge, Mass
+		</Notes>
+	</book>
+	<book>
+		<Title>Essential Dali</Title>
+		<Tagline></Tagline>
+		<AuthorL>Bradbury</AuthorL>
+		<AuthorF>Kirsten</AuthorF>
+		<Date>1999-00-00</Date>
+		<Pages>256</Pages>
+	</book>
+	<book>
+		<Title>Ethan Frome</Title>
+		<Tagline></Tagline>
+		<AuthorL>Wharton</AuthorL>
+		<AuthorF>Edith</AuthorF>
+		<Date>2000-00-00</Date>
+		<Pages>182</Pages>
+	</book>
+	<book>
+		<Title>Fellowship of the Ring, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Tolkien</AuthorL>
+		<AuthorF>J. R. R.</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>398</Pages>
+	</book>
+	<book>
+		<Title>Flowers for Algernon</Title>
+		<Tagline></Tagline>
+		<AuthorL>Keyes</AuthorL>
+		<AuthorF>Daniel</AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>328</Pages>
+	</book>
+	<book>
+		<Title>For Whom the Bell Tolls</Title>
+		<Tagline></Tagline>
+		<AuthorL>Hemingway</AuthorL>
+		<AuthorF>Ernest</AuthorF>
+		<Date>1999-00-00</Date>
+		<Pages>471</Pages>
+	</book>
+	<book>
+		<Title>From the Earth to the Moon</Title>
+		<Tagline></Tagline>
+		<AuthorL>Verne</AuthorL>
+		<AuthorF>Jules</AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>242</Pages>
+		<ISBN>0-553-21420-9</ISBN>
+	</book>
+	<book>
+		<Title>Genius</Title>
+		<Tagline>The Life and Science of Richard Feynman</Tagline>
+		<AuthorL>Gleick</AuthorL>
+		<AuthorF>James</AuthorF>
+		<Date>2002-02-03</Date>
+		<Pages>531</Pages>
+		<ISBN>9780679747048</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Giver, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Lowry</AuthorL>
+		<AuthorF>Lois</AuthorF>
+		<Date>1995-00-00</Date>
+		<Pages>180</Pages>
+	</book>
+	<book>
+		<Title>Gödel, Escher, Bach</Title>
+		<Tagline>Eternal Golden Braid</Tagline>
+		<AuthorL>Hofstadter</AuthorL>
+		<AuthorF>Douglas</AuthorF>
+		<Date>1999-00-00</Date>
+		<Pages>777</Pages>
+		<ISBN>0-394-74502-7</ISBN>
+	</book>
+	<book>
+		<Title>Gödel's Proof</Title>
+		<Tagline></Tagline>
+		<AuthorL>Nagel</AuthorL>
+		<AuthorF>Ernest</AuthorF>
+		<Date>1999-07-00</Date>
+		<Pages>125</Pages>
+		<ISBN>0-8147-5816-9</ISBN>
+	</book>
+	<book>
+		<Title>God's Debris</Title>
+		<Tagline></Tagline>
+		<AuthorL>Adams</AuthorL>
+		<AuthorF>Scott</AuthorF>
+		<Date>2001-06-01</Date>
+		<Pages>144</Pages>
+		<ISBN>0740747878</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Good Earth, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Buck</AuthorL>
+		<AuthorF>Pearl</AuthorF>
+		<Date>1995-00-00</Date>
+		<Pages>379</Pages>
+		<ISBN>0671729896</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Great Gatsby, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Fitzgerald</AuthorL>
+		<AuthorF>F. Scott</AuthorF>
+		<Date>1998-00-00</Date>
+		<Pages>216</Pages>
+		<ISBN>0-684-80152-3</ISBN>
+	</book>
+	<book>
+		<Title>Great Mambo Chicken and the Transhuman Condition</Title>
+		<Tagline>Science Slightly over the Edge</Tagline>
+		<AuthorL>Regis</AuthorL>
+		<AuthorF>Ed</AuthorF>
+		<Date>2000-00-00</Date>
+		<Pages>308</Pages>
+		<ISBN>9780201567519</ISBN>
+	</book>
+	<book>
+		<Title>Great Tales and Poems of Edgar Allan Poe</Title>
+		<Tagline></Tagline>
+		<AuthorL>Poe</AuthorL>
+		<AuthorF>Edgar Allan</AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>236</Pages>
+		<ISBN>0743467469</ISBN>
+		<FakeISBN/>
+		<Notes>
+			ISBN on back of book says 1-55902-983-8, but was apparently reused by Wallmart publishing
+		</Notes>
+	</book>
+	<book>
+		<Title>Growing up Digital</Title>
+		<Tagline>The Rise of the Net Generation</Tagline>
+		<AuthorL>Tapscott</AuthorL>
+		<AuthorF>Don</AuthorF>
+		<Date>2001-10-26</Date>
+		<Pages>336</Pages>
+		<ISBN>9780070633612</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Hard Disk Power</Title>
+		<Tagline></Tagline>
+		<AuthorL>Jamsa</AuthorL>
+		<AuthorF>Kris</AuthorF>
+		<Date>1997-00-00</Date>
+		<Pages>442</Pages>
+		<ISBN>0-672-22761-4</ISBN>
+	</book>
+	<book>
+		<Title>Heart of the Matter, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Greene</AuthorL>
+		<AuthorF>Graham</AuthorF>
+		<Date>1999-00-00</Date>
+		<Pages>240</Pages>
+		<ISBN>9780140184969</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Ideas and Opinions</Title>
+		<Tagline></Tagline>
+		<AuthorL>Einstein</AuthorL>
+		<AuthorF>Albert</AuthorF>
+		<Date>1999-00-00</Date>
+		<Pages>384</Pages>
+	</book>
+	<book>
+		<Title>Imaginary Numbers</Title>
+		<Tagline>An Anthology of Marvelous Mathematical Stories, Diversions, Poems, and Musings</Tagline>
+		<AuthorL>Frucht</AuthorL>
+		<AuthorF>William</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>360</Pages>
+	</book>
+	<book>
+		<Title>In Quest of Ghosts</Title>
+		<Tagline></Tagline>
+		<AuthorL>Holzer</AuthorL>
+		<AuthorF>Hans</AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>215</Pages>
+	</book>
+	<book>
+		<Title>Infinity</Title>
+		<Tagline></Tagline>
+		<AuthorL>Lieber</AuthorL>
+		<AuthorF>Lillian</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>0</Pages>
+	</book>
+	<book>
+		<Title>Into the Heart of the Mind</Title>
+		<Tagline>An American Quest for Artificial Intelligence</Tagline>
+		<AuthorL>Rose</AuthorL>
+		<AuthorF>Frank</AuthorF>
+		<Date>1999-00-00</Date>
+		<Pages>209</Pages>
+		<ISBN>0-06-015306-7</ISBN>
+	</book>
+	<!--<book>
+		<Title>IntranetWare</Title>
+		<Tagline>NetWare 4.11 Administration</Tagline>
+		<AuthorL></AuthorL>
+		<AuthorF></AuthorF>
+		<Date>1998-00-00</Date>
+		<Pages>0</Pages>
+	</book>-->
+	<book>
+		<Title>Introduction to Modern Biology, An</Title>
+		<Tagline></Tagline>
+		<AuthorL>Bailey &amp; Wagner</AuthorL>
+		<AuthorF></AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>520</Pages>
+	</book>
+	<book>
+		<Title>Invisible Man, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Wells</AuthorL>
+		<AuthorF>H. G.</AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>196</Pages>
+	</book>
+	<book>
+		<Title>Ironweed</Title>
+		<Tagline></Tagline>
+		<AuthorL>Kennedy</AuthorL>
+		<AuthorF>William</AuthorF>
+		<Date>1999-00-00</Date>
+		<Pages>227</Pages>
+	</book>
+	<book>
+		<Title>Jane Eyre</Title>
+		<Tagline></Tagline>
+		<AuthorL>Bronte</AuthorL>
+		<AuthorF>Charlotte</AuthorF>
+		<Date>1998-00-00</Date>
+		<Pages>461</Pages>
+	</book>
+	<book>
+		<Title>Journal of the Plague Year, A</Title>
+		<Tagline></Tagline>
+		<AuthorL>Defoe</AuthorL>
+		<AuthorF>Daniel</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>256</Pages>
+	</book>
+	<book>
+		<Title>Journey to the Center of the Earth, A</Title>
+		<Tagline></Tagline>
+		<AuthorL>Verne</AuthorL>
+		<AuthorF>Jules</AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>0</Pages>
+	</book>
+	<book>
+		<Title>Just for Fun</Title>
+		<Tagline>The Story of an Accidental Revolutionary</Tagline>
+		<AuthorL>Torvalds</AuthorL>
+		<AuthorF>Linus</AuthorF>
+		<Date>2001-09-11</Date>
+		<Pages>288</Pages>
+		<ISBN>9780066620725</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>King Lear</Title>
+		<Tagline></Tagline>
+		<AuthorL>Shakespeare</AuthorL>
+		<AuthorF>William</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>118</Pages>
+		<ISBN>0-486-28058-6</ISBN>
+	</book>
+	<book>
+		<Title>Molly Sweeney</Title>
+		<Tagline></Tagline>
+		<AuthorL>Friel</AuthorL>
+		<AuthorF>Brian</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>70</Pages>
+		<ISBN>0452275083</ISBN>
+	</book>
+	<book>
+		<Title>Galileo</Title>
+		<Tagline></Tagline>
+		<AuthorL>Brecht</AuthorL>
+		<AuthorF>Bertolt</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>155</Pages>
+		<ISBN>0802130593</ISBN>
+	</book>
+	<book>
+		<Title>Arcadia</Title>
+		<Tagline></Tagline>
+		<AuthorL>Stoppard</AuthorL>
+		<AuthorF>Tom</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>97</Pages>
+		<ISBN>0-571-16934-1</ISBN>
+	</book>
+	<book>
+		<Title>Physicists, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Durrenmatt</AuthorL>
+		<AuthorF>Friedrich</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>94</Pages>
+		<ISBN>0802150888</ISBN>
+	</book>
+	<book>
+		<Title>Little Prince, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>St. Exupery</AuthorL>
+		<AuthorF>Antoine</AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>96</Pages>
+	</book>
+	<book>
+		<Title>Lives of a Cell</Title>
+		<Tagline></Tagline>
+		<AuthorL>Thomas</AuthorL>
+		<AuthorF>Lewis</AuthorF>
+		<Date>1999-00-00</Date>
+		<Pages>153</Pages>
+	</book>
+	<book>
+		<Title>Locked in Time</Title>
+		<Tagline></Tagline>
+		<AuthorL>Duncan</AuthorL>
+		<AuthorF>Lois</AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>210</Pages>
+	</book>
+	<book>
+		<Title>Lord of the Flies</Title>
+		<Tagline></Tagline>
+		<AuthorL>Golding</AuthorL>
+		<AuthorF>William</AuthorF>
+		<Date>1997-00-00</Date>
+		<Pages>208</Pages>
+	</book>
+	<book>
+		<Title>Metamagical Themas</Title>
+		<Tagline>Questing for the Essence of Mind and Pattern</Tagline>
+		<AuthorL>Hofstadter</AuthorL>
+		<AuthorF>Douglas</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>880</Pages>
+	</book>
+	<book>
+		<Title>Midnight in the Garden of Good and Evil</Title>
+		<Tagline></Tagline>
+		<AuthorL>Berendt</AuthorL>
+		<AuthorF>John</AuthorF>
+		<Date>2000-00-00</Date>
+		<Pages>386</Pages>
+	</book>
+	<book>
+		<Title>Mind's I, The</Title>
+		<Tagline>Fantasies and Reflections on Self &amp; Soul</Tagline>
+		<AuthorL>Hofstadter</AuthorL>
+		<AuthorF>Douglas</AuthorF>
+		<Date>2000-00-00</Date>
+		<Pages>500</Pages>
+		<ISBN>0-553-34584-2</ISBN>
+	</book>
+	<book>
+		<Title>Mysterious Island, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Verne</AuthorL>
+		<AuthorF>Jules</AuthorF>
+		<Date>1995-00-00</Date>
+		<Pages>640</Pages>
+		<ISBN>0-451-52491-8</ISBN>
+	</book>
+	<book>
+		<Title>Nectar in a Sieve</Title>
+		<Tagline></Tagline>
+		<AuthorL>Markandaya</AuthorL>
+		<AuthorF>Kamala</AuthorF>
+		<Date>1997-00-00</Date>
+		<Pages>208</Pages>
+	</book>
+	<book>
+		<Title>Night</Title>
+		<Tagline></Tagline>
+		<AuthorL>Wiesel</AuthorL>
+		<AuthorF>Elie</AuthorF>
+		<Date>1997-00-00</Date>
+		<Pages>109</Pages>
+	</book>
+	<book>
+		<Title>No Ordinary Genius</Title>
+		<Tagline>The Illustrated Richard Feynman</Tagline>
+		<AuthorL>Sykes</AuthorL>
+		<AuthorF>Christopher</AuthorF>
+		<Date>2002-01-27</Date>
+		<Pages>272</Pages>
+		<ISBN>9780393313932</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Old Man and the Sea, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Hemingway</AuthorL>
+		<AuthorF>Ernest</AuthorF>
+		<Date>1995-00-00</Date>
+		<Pages>96</Pages>
+		<ISBN>9780684830490</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>On the Origin of Species</Title>
+		<Tagline></Tagline>
+		<AuthorL>Darwin</AuthorL>
+		<AuthorF>Charles</AuthorF>
+		<Date>2001-06-06</Date>
+		<Pages>352</Pages>
+		<ISBN>9780451605030</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>On the Road</Title>
+		<Tagline></Tagline>
+		<AuthorL>Kerouac</AuthorL>
+		<AuthorF>Jack</AuthorF>
+		<Date>1999-00-00</Date>
+		<Pages>310</Pages>
+		<ISBN>0-14-004259-8</ISBN>
+	</book>
+	<book>
+		<Title>Out of Africa</Title>
+		<Tagline></Tagline>
+		<AuthorL>Dinesen</AuthorL>
+		<AuthorF>Isak</AuthorF>
+		<Date>2000-00-00</Date>
+		<Pages>462</Pages>
+		<ISBN>0-679-72475-3</ISBN>
+	</book>
+	<book>
+		<Title>Peter Pan</Title>
+		<Tagline></Tagline>
+		<AuthorL>Barrie</AuthorL>
+		<AuthorF>J. M.</AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>192</Pages>
+	</book>
+	<book>
+		<Title>Phantom Tollbooth, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Juster</AuthorL>
+		<AuthorF>Norton</AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>256</Pages>
+	</book>
+	<book>
+		<Title>Photoshop Web Techniques</Title>
+		<Tagline></Tagline>
+		<AuthorL>Hamlin</AuthorL>
+		<AuthorF></AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>0</Pages>
+	</book>
+	<book>
+		<Title>Programmer's Introduction to PHP 4.0, A</Title>
+		<Tagline></Tagline>
+		<AuthorL>Gilmore</AuthorL>
+		<AuthorF>W. J.</AuthorF>
+		<Date>2001-09-24</Date>
+		<Pages>430</Pages>
+	</book>
+	<book>
+		<Title>Random Essays On Mathematics, Education, and Computers</Title>
+		<Tagline></Tagline>
+		<AuthorL>Kemeny</AuthorL>
+		<AuthorF>John</AuthorF>
+		<Date>2001-11-12</Date>
+		<Pages>163</Pages>
+		<ASIN>B0006BLZW0</ASIN>
+	</book>
+	<book>
+		<Title>Recursive Universe, The</Title>
+		<Tagline>Cosmic Complexity and the Limits of Scientific Knowledge</Tagline>
+		<AuthorL>Poundstone</AuthorL>
+		<AuthorF>William</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>0</Pages>
+	</book>
+	<book>
+		<Title>Red Badge of Courage, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Crane</AuthorL>
+		<AuthorF>Stephen</AuthorF>
+		<Date>1999-00-00</Date>
+		<Pages>100</Pages>
+	</book>
+	<book>
+		<Title>Relativity for the Million</Title>
+		<Tagline></Tagline>
+		<AuthorL>Gardner</AuthorL>
+		<AuthorF>Martin</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>182</Pages>
+	</book>
+	<book>
+		<Title>Riddles in Mathematics</Title>
+		<Tagline></Tagline>
+		<AuthorL>Northrop</AuthorL>
+		<AuthorF></AuthorF>
+		<Date>1999-00-00</Date>
+		<Pages>244</Pages>
+	</book>
+	<book>
+		<Title>Robinson Crusoe</Title>
+		<Tagline></Tagline>
+		<AuthorL>DeFoe</AuthorL>
+		<AuthorF>Daniel</AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>337</Pages>
+		<ISBN>1-55902-983-8</ISBN>
+	</book>
+	<book>
+		<Title>Romeo and Juliet</Title>
+		<Tagline></Tagline>
+		<AuthorL>Shakespeare</AuthorL>
+		<AuthorF></AuthorF>
+		<Date>1996-00-00</Date>
+		<Pages>0</Pages>
+	</book>
+	<book>
+		<Title>Scarlet Letter, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Hawthorne</AuthorL>
+		<AuthorF>Nathaniel</AuthorF>
+		<Date>1998-00-00</Date>
+		<Pages>180</Pages>
+		<ISBN>0-486-28048-9</ISBN>
+	</book>
+	<book>
+		<Title>Scary Stories Treasury, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Schwartz &amp; Gammell</AuthorL>
+		<AuthorF></AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>320</Pages>
+	</book>
+	<book>
+		<Title>Second Self, The</Title>
+		<Tagline>Computers and the Human Spirit</Tagline>
+		<AuthorL>Turkle</AuthorL>
+		<AuthorF>Sherry</AuthorF>
+		<Date>1999-07-00</Date>
+		<Pages>362</Pages>
+	</book>
+	<book>
+		<Title>Selfish Gene, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Dawkins</AuthorL>
+		<AuthorF>Richard</AuthorF>
+		<Date>2001-10-04</Date>
+		<Pages>352</Pages>
+		<ISBN>9780192177735</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Separate Peace, A</Title>
+		<Tagline></Tagline>
+		<AuthorL>Knowles</AuthorL>
+		<AuthorF>John</AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>196</Pages>
+	</book>
+	<book>
+		<Title>Significance of Mathematics, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Montague</AuthorL>
+		<AuthorF>Harriet</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>0</Pages>
+	</book>
+	<book>
+		<Title>Silence of the Lambs, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Harris</AuthorL>
+		<AuthorF>Thomas</AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>367</Pages>
+	</book>
+	<book>
+		<Title>Stairway to Hell</Title>
+		<Tagline>The Well-Planned Destruction of Teens</Tagline>
+		<AuthorL>Jones</AuthorL>
+		<AuthorF>Rick</AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>0</Pages>
+	</book>
+	<book>
+		<Title>Tao of Physics, The</Title>
+		<Tagline>An Exploration of the Parallels Between Modern Physics and Eastern Mysticism</Tagline>
+		<AuthorL>Capra</AuthorL>
+		<AuthorF>Fritjof</AuthorF>
+		<Date>2001-06-17</Date>
+		<Pages>368</Pages>
+		<ISBN>9781570625190</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Tao Te Ching</Title>
+		<Tagline></Tagline>
+		<AuthorL>Rosenthal</AuthorL>
+		<AuthorF>Stan</AuthorF>
+		<Date>2001-06-19</Date>
+		<Pages>176</Pages>
+		<ISBN>9780679776192</ISBN>
+		<FakeISBN/>
+		<Notes>
+			Rosenthal version is just an e-book, no isbn exists
+		</Notes>
+	</book>
+	<book>
+		<Title>Things Fall Apart</Title>
+		<Tagline></Tagline>
+		<AuthorL>Achebe</AuthorL>
+		<AuthorF>Chinua</AuthorF>
+		<Date>1997-00-00</Date>
+		<Pages>209</Pages>
+	</book>
+	<book>
+		<Title>Thinking Computers and Virtual Persons</Title>
+		<Tagline>Essays on the Intentionality of Machines</Tagline>
+		<AuthorL>Dietrich</AuthorL>
+		<AuthorF>Eric</AuthorF>
+		<Date>2001-10-19</Date>
+		<Pages>363</Pages>
+		<ISBN>9780122154959</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Time Machine, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Wells</AuthorL>
+		<AuthorF>H. G.</AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>120</Pages>
+		<ISBN>9780451528551</ISBN>
+		<FakeISBN/>
+		<Notes>
+			ISBN on back of book says 1-55902-983-8, but was apparently reused by Wallmart publishing
+		</Notes>
+	</book>
+	<book>
+		<Title>To Kill a Mockingbird</Title>
+		<Tagline></Tagline>
+		<AuthorL>Lee</AuthorL>
+		<AuthorF>Harper</AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>281</Pages>
+	</book>
+	<book>
+		<Title>Truth from Trash</Title>
+		<Tagline>How Learning Makes Sense</Tagline>
+		<AuthorL>Thornton</AuthorL>
+		<AuthorF>Chris</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>216</Pages>
+	</book>
+	<book>
+		<Title>Ultimate Hitchhiker's Guide, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Adams</AuthorL>
+		<AuthorF>Douglas</AuthorF>
+		<Date>1999-00-00</Date>
+		<Pages>815</Pages>
+		<ISBN>0-517-14925-7</ISBN>
+	</book>
+	<book>
+		<Title>Walden Pond</Title>
+		<Tagline></Tagline>
+		<AuthorL>Thoreau</AuthorL>
+		<AuthorF>Henry</AuthorF>
+		<Date>2000-00-00</Date>
+		<Pages>221</Pages>
+		<ISBN>9780451513397</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>War of the Worlds, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Wells</AuthorL>
+		<AuthorF>H. G.</AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>204</Pages>
+	</book>
+	<book>
+		<Title>What Do You Care what Other People Think?</Title>
+		<Tagline>Further Adventures of a Curious Character</Tagline>
+		<AuthorL>Leighton</AuthorL>
+		<AuthorF>Ralph</AuthorF>
+		<Date>2002-01-25</Date>
+		<Pages>256</Pages>
+		<ISBN>9780553347845</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>White Fang</Title>
+		<Tagline></Tagline>
+		<AuthorL>London</AuthorL>
+		<AuthorF>Jack</AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>271</Pages>
+	</book>
+	<book>
+		<Title>Why People Believe Weird Things</Title>
+		<Tagline>Pseudoscience, Superstition, and Other Confusions of Our Time</Tagline>
+		<AuthorL>Shermer</AuthorL>
+		<AuthorF>Michael</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>306</Pages>
+	</book>
+	<book>
+		<Title>Winesburg, Ohio</Title>
+		<Tagline></Tagline>
+		<AuthorL>Anderson</AuthorL>
+		<AuthorF>Sherwood</AuthorF>
+		<Date>1998-00-00</Date>
+		<Pages>247</Pages>
+	</book>
+	<book>
+		<Title>Woman's Day Book of House Plants</Title>
+		<Tagline></Tagline>
+		<AuthorL>Hersey</AuthorL>
+		<AuthorF>Jean</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>121</Pages>
+	</book>
+	<book>
+		<Title>Writing Life, A</Title>
+		<Tagline></Tagline>
+		<AuthorL>Dillard</AuthorL>
+		<AuthorF>Annie</AuthorF>
+		<Date>2000-00-00</Date>
+		<Pages>128</Pages>
+	</book>
+	<book>
+		<Title>Zen and the Art of Motorcycle Maintenance</Title>
+		<Tagline></Tagline>
+		<AuthorL>Pirsig</AuthorL>
+		<AuthorF>Robert</AuthorF>
+		<Date>2000-00-00</Date>
+		<Pages>380</Pages>
+	</book>
+	<book>
+		<Title>Humble Pi</Title>
+		<Tagline>The Role Mathematics Should Play in American Education</Tagline>
+		<AuthorL>Smith</AuthorL>
+		<AuthorF>Michael</AuthorF>
+		<Date>2002-03-27</Date>
+		<Pages>218</Pages>
+		<ISBN>9780879758776</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Travels to the Nanoworld</Title>
+		<Tagline>Miniature Machinery in Nature and Technology</Tagline>
+		<AuthorL>Gross</AuthorL>
+		<AuthorF>Michael</AuthorF>
+		<Date>2002-08-23</Date>
+		<Pages>250</Pages>
+		<ISBN>9780738204444</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Friendship</Title>
+		<Tagline>Philosophical Reflections on a Perennial Concern</Tagline>
+		<AuthorL>Blosser</AuthorL>
+		<AuthorF>Philip</AuthorF>
+		<Date>2002-00-00</Date>
+		<Pages>440</Pages>
+		<ISBN>9780761808183</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>In the Image of the Brain</Title>
+		<Tagline>Breaking the Barrier Between the Human Mind and Intelligent Machines</Tagline>
+		<AuthorL>Jubak</AuthorL>
+		<AuthorF>Jim</AuthorF>
+		<Date>2002-07-00</Date>
+		<Pages>348</Pages>
+		<ISBN>9780788156137</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Cyberpunk</Title>
+		<Tagline>Outlaws and Hackers on the Computer Frontier</Tagline>
+		<AuthorL>Hafner &amp; Markoff</AuthorL>
+		<AuthorF></AuthorF>
+		<Date>2002-08-27</Date>
+		<Pages>400</Pages>
+		<ISBN>9780684818627</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>AI</Title>
+		<Tagline>The Tumultuous History of the Search for Artificial Intelligence</Tagline>
+		<AuthorL>Crevier</AuthorL>
+		<AuthorF>Daniel</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>0</Pages>
+	</book>
+	<book>
+		<Title>What School Is For</Title>
+		<Tagline></Tagline>
+		<AuthorL>Chanan</AuthorL>
+		<AuthorF>Gabriel</AuthorF>
+		<Date>2002-10-07</Date>
+		<Pages>129</Pages>
+		<ISBN>9780416785104</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Two Towers, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Tolkien</AuthorL>
+		<AuthorF>J. R. R.</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>415</Pages>
+	</book>
+	<book>
+		<Title>Return of the King, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Tolkien</AuthorL>
+		<AuthorF>J. R. R.</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>507</Pages>
+	</book>
+	<book>
+		<Title>Infinite Jest</Title>
+		<Tagline></Tagline>
+		<AuthorL>Wallace</AuthorL>
+		<AuthorF>David</AuthorF>
+		<Date>2002-10-17</Date>
+		<Pages>1079</Pages>
+		<ISBN>9780316920049</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Zero To Infinity, From</Title>
+		<Tagline>What Makes Numbers Interesting</Tagline>
+		<AuthorL>Reid</AuthorL>
+		<AuthorF>Constance</AuthorF>
+		<Date>2002-11-07</Date>
+		<Pages>153</Pages>
+		<ISBN>9780883855058</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Innumeracy</Title>
+		<Tagline>Mathematical Illiteracy and Its Consequences</Tagline>
+		<AuthorL>Paulos</AuthorL>
+		<AuthorF>John</AuthorF>
+		<Date>2002-11-11</Date>
+		<Pages>135</Pages>
+		<ISBN>9780809058402</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Man Who Loved Only Numbers, The</Title>
+		<Tagline>The Story of Paul Erdos and the Search for Mathematical Truth</Tagline>
+		<AuthorL>Hoffman</AuthorL>
+		<AuthorF>Paul</AuthorF>
+		<Date>2002-11-23</Date>
+		<Pages>269</Pages>
+		<ISBN>9780786884063</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Mathematician Reads the Newspaper, A</Title>
+		<Tagline></Tagline>
+		<AuthorL>Paulos</AuthorL>
+		<AuthorF>John</AuthorF>
+		<Date>2002-12-02</Date>
+		<Pages>203</Pages>
+		<ISBN>9780385482547</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Binary Brain, The</Title>
+		<Tagline>Artificial Intelligence in the Age of Electronics</Tagline>
+		<AuthorL>Ritchie</AuthorL>
+		<AuthorF>David</AuthorF>
+		<Date>2002-12-06</Date>
+		<Pages>198</Pages>
+		<ISBN>9780316747301</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Hobbit, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Tolkien</AuthorL>
+		<AuthorF>J. R. R.</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>320</Pages>
+		<ISBN>0-345-33968-1</ISBN>
+	</book>
+	<book>
+		<Title>Le Ton beau de Marot</Title>
+		<Tagline>In Praise of the Music of Language</Tagline>
+		<AuthorL>Hofstadter</AuthorL>
+		<AuthorF>Douglas</AuthorF>
+		<Date>2003-01-21</Date>
+		<Pages>570</Pages>
+		<ISBN>0465086438</ISBN>
+	</book>
+	<book>
+		<Title>Fluid Concepts and Creative Analogies</Title>
+		<Tagline>Computer Models of the Fundamental Mechanisms of Thought</Tagline>
+		<AuthorL>Hofstadter</AuthorL>
+		<AuthorF>Douglas</AuthorF>
+		<Date>2003-01-29</Date>
+		<Pages>491</Pages>
+		<ISBN>0-465-02475-0</ISBN>
+	</book>
+	<book>
+		<Title>Numbers in the Dark</Title>
+		<Tagline>and Other Stories</Tagline>
+		<AuthorL>Calvino</AuthorL>
+		<AuthorF>Italo</AuthorF>
+		<Date>2003-02-09</Date>
+		<Pages>272</Pages>
+		<ISBN>9780679743538</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>If on a winter's night a traveler</Title>
+		<Tagline></Tagline>
+		<AuthorL>Calvino</AuthorL>
+		<AuthorF>Italo</AuthorF>
+		<Date>2003-02-17</Date>
+		<Pages>260</Pages>
+		<ISBN>9780156439619</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Emperor's New Mind, The</Title>
+		<Tagline>Concerning Computers, Minds, and the Laws of Physics</Tagline>
+		<AuthorL>Penrose</AuthorL>
+		<AuthorF>Roger</AuthorF>
+		<Date>2003-03-19</Date>
+		<Pages>449</Pages>
+		<ISBN>9780099803706</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Common Sense of the Exact Sciences, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Clifford</AuthorL>
+		<AuthorF>William</AuthorF>
+		<Date>2003-03-28</Date>
+		<Pages>243</Pages>
+		<ISBN>9781855067585</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Mathematical Fallacies and Paradoxes</Title>
+		<Tagline></Tagline>
+		<AuthorL>Bunch</AuthorL>
+		<AuthorF>Bryan</AuthorF>
+		<Date>2003-04-04</Date>
+		<Pages>210</Pages>
+		<ISBN>9780486296647</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Most of the Good Stuff</Title>
+		<Tagline>Memories of Richard Feynman</Tagline>
+		<AuthorL>Brown</AuthorL>
+		<AuthorF>Laurie</AuthorF>
+		<Date>2003-04-16</Date>
+		<Pages>170</Pages>
+		<ISBN>9780883188705</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Consciousness Explained</Title>
+		<Tagline></Tagline>
+		<AuthorL>Dennett</AuthorL>
+		<AuthorF>Daniel</AuthorF>
+		<Date>2003-05-01</Date>
+		<Pages>468</Pages>
+	</book>
+	<book>
+		<Title>Pilgrim at Tinker Creek</Title>
+		<Tagline></Tagline>
+		<AuthorL>Dillard</AuthorL>
+		<AuthorF>Annie</AuthorF>
+		<Date>2003-05-10</Date>
+		<Pages>271</Pages>
+	</book>
+	<book>
+		<Title>Naked Ape, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Morris</AuthorL>
+		<AuthorF>Desmond</AuthorF>
+		<Date>2003-05-25</Date>
+		<Pages>197</Pages>
+		<ISBN>9780385334303</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Metamorphosis of Prime Intellect, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Williams</AuthorL>
+		<AuthorF>Roger</AuthorF>
+		<Date>2003-05-28</Date>
+		<Pages>100</Pages>
+		<ISBN>9781411602199</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Teach Yourself Active Server Pages 3.0 in 21 Days</Title>
+		<Tagline></Tagline>
+		<AuthorL>Mitchell</AuthorL>
+		<AuthorF>Scott</AuthorF>
+		<Date>2003-07-07</Date>
+		<Pages>700</Pages>
+	</book>
+	<book>
+		<Title>Dirk Gently's Holistic Detective Agency</Title>
+		<Tagline></Tagline>
+		<AuthorL>Adams</AuthorL>
+		<AuthorF>Douglas</AuthorF>
+		<Date>2003-07-27</Date>
+		<Pages>306</Pages>
+		<ISBN>9780671746728</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Long Dark Tea-Time of the Soul, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Adams</AuthorL>
+		<AuthorF>Douglas</AuthorF>
+		<Date>2003-08-03</Date>
+		<Pages>307</Pages>
+		<ISBN>9780671742515</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Gödel</Title>
+		<Tagline>A Life of Logic</Tagline>
+		<AuthorL>Casti</AuthorL>
+		<AuthorF>John</AuthorF>
+		<Date>2003-09-01</Date>
+		<Pages>195</Pages>
+		<ISBN>9780738205182</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Prisoner's Dilemma</Title>
+		<Tagline></Tagline>
+		<AuthorL>Poundstone</AuthorL>
+		<AuthorF>William</AuthorF>
+		<Date>2003-09-11</Date>
+		<Pages>278</Pages>
+		<ISBN>9780192861627</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Evolution of Cooperation</Title>
+		<Tagline></Tagline>
+		<AuthorL>Axelrod</AuthorL>
+		<AuthorF>Robert</AuthorF>
+		<Date>2003-09-16</Date>
+		<Pages>222</Pages>
+		<ISBN>9780465021215</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Code, In</Title>
+		<Tagline>A Mathematical Journey</Tagline>
+		<AuthorL>Flannery</AuthorL>
+		<AuthorF>Sarah</AuthorF>
+		<Date>2003-09-23</Date>
+		<Pages>322</Pages>
+		<ISBN>9781565123779</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Creative Teaching</Title>
+		<Tagline>Heritage of R. L. Moore</Tagline>
+		<AuthorL>Traylor</AuthorL>
+		<AuthorF>Reginald</AuthorF>
+		<Date>2003-09-29</Date>
+		<Pages>195</Pages>
+	</book>
+	<book>
+		<Title>Infinity and the Mind</Title>
+		<Tagline>The Science and Philosophy of the Infinite</Tagline>
+		<AuthorL>Rucker</AuthorL>
+		<AuthorF>Rudy</AuthorF>
+		<Date>2003-09-30</Date>
+		<Pages>306</Pages>
+		<ISBN>9780691001722</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Collected Fictions</Title>
+		<Tagline></Tagline>
+		<AuthorL>Borges</AuthorL>
+		<AuthorF>Jorge</AuthorF>
+		<Date>2003-10-17</Date>
+		<Pages>565</Pages>
+		<ISBN>9780670849703</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Number</Title>
+		<Tagline></Tagline>
+		<AuthorL>McLeish</AuthorL>
+		<AuthorF>John</AuthorF>
+		<Date>2003-11-12</Date>
+		<Pages>251</Pages>
+		<ISBN>9780747509219</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Blind Watchmaker, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Dawkins</AuthorL>
+		<AuthorF>Richard</AuthorF>
+		<Date>2003-12-04</Date>
+		<Pages>320</Pages>
+		<ISBN>9780393304480</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Spike, The</Title>
+		<Tagline>How Our Lives Are Being Transformed by Rapidly Advancing Technologies</Tagline>
+		<AuthorL>Broderick</AuthorL>
+		<AuthorF>Damien</AuthorF>
+		<Date>2004-01-16</Date>
+		<Pages>346</Pages>
+		<ISBN>9780312877828</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Your Engineered House</Title>
+		<Tagline></Tagline>
+		<AuthorL>Roberts</AuthorL>
+		<AuthorF>Rex</AuthorF>
+		<Date>2004-01-18</Date>
+		<Pages>229</Pages>
+	</book>
+	<book>
+		<Title>Surely You're Joking, Mr. Feynman!</Title>
+		<Tagline>Adventures of a Curious Character</Tagline>
+		<AuthorL>Feynman</AuthorL>
+		<AuthorF>Richard</AuthorF>
+		<Date>2004-01-28</Date>
+		<Pages>350</Pages>
+		<ISBN>0-553-34668-7</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Basic Drawing Techniques</Title>
+		<Tagline></Tagline>
+		<AuthorL>Albert</AuthorL>
+		<AuthorF>Greg</AuthorF>
+		<Date>2004-02-03</Date>
+		<Pages>119</Pages>
+		<ISBN>9780891345510</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>How the Mind Works</Title>
+		<Tagline></Tagline>
+		<AuthorL>Pinker</AuthorL>
+		<AuthorF>Steven</AuthorF>
+		<Date>2004-02-26</Date>
+		<Pages>588</Pages>
+		<ISBN>0-393-31848-6</ISBN>
+	</book>
+	<book>
+		<Title>Bees &amp; Beekeeping</Title>
+		<Tagline></Tagline>
+		<AuthorL>Morse</AuthorL>
+		<AuthorF>Roger</AuthorF>
+		<Date>2004-04-14</Date>
+		<Pages>281</Pages>
+		<ISBN>0-8014-0884-9</ISBN>
+	</book>
+	<book>
+		<Title>Clumsy</Title>
+		<Tagline></Tagline>
+		<AuthorL>Brown</AuthorL>
+		<AuthorF>Jeffrey</AuthorF>
+		<Date>2004-04-24</Date>
+		<Pages>224</Pages>
+		<ISBN>9780971359765</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Visual Display of Quantitative Information</Title>
+		<Tagline></Tagline>
+		<AuthorL>Tufte</AuthorL>
+		<AuthorF>Edward</AuthorF>
+		<Date>2004-06-10</Date>
+		<Pages>191</Pages>
+		<ISBN>9780961392147</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Blank Slate, The</Title>
+		<Tagline>The Modern Denial of Human Nature</Tagline>
+		<AuthorL>Pinker</AuthorL>
+		<AuthorF>Steven</AuthorF>
+		<Date>2004-07-04</Date>
+		<Pages>434</Pages>
+		<ISBN>0-14-200334-4</ISBN>
+	</book>
+	<book>
+		<Title>Eye of the Storm</Title>
+		<Tagline>The Album Graphics of Storm Thorgerson</Tagline>
+		<AuthorL>Thorgerson</AuthorL>
+		<AuthorF>Storm</AuthorF>
+		<Date>2004-07-04</Date>
+		<Pages>188</Pages>
+		<ISBN>1-86074-259-9</ISBN>
+	</book>
+	<book>
+		<Title>Martian Chronicles, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Bradbury</AuthorL>
+		<AuthorF>Ray</AuthorF>
+		<Date>2004-07-05</Date>
+		<Pages>182</Pages>
+		<ISBN>0-553-27822-3</ISBN>
+	</book>
+	<book>
+		<Title>Dune</Title>
+		<Tagline></Tagline>
+		<AuthorL>Herbert</AuthorL>
+		<AuthorF>Frank</AuthorF>
+		<Date>2004-07-15</Date>
+		<Pages>535</Pages>
+		<ISBN>0-441-17271-7</ISBN>
+	</book>
+	<book>
+		<Title>Teachings of Don Juan, The</Title>
+		<Tagline>A Yaqui Way of Knowledge</Tagline>
+		<AuthorL>Castaneda</AuthorL>
+		<AuthorF>Carlos</AuthorF>
+		<Date>2004-07-30</Date>
+		<Pages>210</Pages>
+		<ISBN>0520217578</ISBN>
+	</book>
+	<book>
+		<Title>Dune Messiah</Title>
+		<Tagline></Tagline>
+		<AuthorL>Herbert</AuthorL>
+		<AuthorF>Frank</AuthorF>
+		<Date>2004-08-22</Date>
+		<Pages>256</Pages>
+		<ISBN>0425043797</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Lolita</Title>
+		<Tagline></Tagline>
+		<AuthorL>Nabokov</AuthorL>
+		<AuthorF>Vladimir</AuthorF>
+		<Date>2004-08-28</Date>
+		<Pages>319</Pages>
+		<ISBN>0679410430</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>The Crying of Lot 49</Title>
+		<Tagline></Tagline>
+		<AuthorL>Pynchon</AuthorL>
+		<AuthorF>Thomas</AuthorF>
+		<Date>2004-08-31</Date>
+		<Pages>152</Pages>
+		<ISBN>0-06-093167-1</ISBN>
+	</book>
+	<book>
+		<Title>Einstein's Dreams</Title>
+		<Tagline></Tagline>
+		<AuthorL>Lightman</AuthorL>
+		<AuthorF>Alan</AuthorF>
+		<Date>2004-09-01</Date>
+		<Pages>179</Pages>
+		<ISBN>0446670111</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>In the Beginning Was the Command Line</Title>
+		<Tagline></Tagline>
+		<AuthorL>Stephenson</AuthorL>
+		<AuthorF>Neal</AuthorF>
+		<Date>2004-10-12</Date>
+		<Pages>160</Pages>
+		<ISBN>0380815931</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Boomeritis</Title>
+		<Tagline>A Novel That Will Set You Free</Tagline>
+		<AuthorL>Wilber</AuthorL>
+		<AuthorF>Ken</AuthorF>
+		<Date>2004-10-16</Date>
+		<Pages>456</Pages>
+		<ISBN>1590300084</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Still Life with Woodpecker</Title>
+		<Tagline>A Sort of a Love Story</Tagline>
+		<AuthorL>Robbins</AuthorL>
+		<AuthorF>Tom</AuthorF>
+		<Date>2004-11-13</Date>
+		<Pages>277</Pages>
+		<ISBN>0-553-01260-6</ISBN>
+	</book>
+	<book>
+		<Title>Me Talk Pretty One Day</Title>
+		<Tagline></Tagline>
+		<AuthorL>Sedaris</AuthorL>
+		<AuthorF>David</AuthorF>
+		<Date>2004-12-02</Date>
+		<Pages>272</Pages>
+		<ISBN>9780349113913</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Shopgirl</Title>
+		<Tagline></Tagline>
+		<AuthorL>Martin</AuthorL>
+		<AuthorF>Steve</AuthorF>
+		<Date>2005-01-20</Date>
+		<Pages>130</Pages>
+		<ISBN>9780786891078</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>No Exit</Title>
+		<Tagline>And Three Other Plays</Tagline>
+		<AuthorL>Sartre</AuthorL>
+		<AuthorF>Jean-Paul</AuthorF>
+		<Date>2005-01-29</Date>
+		<Pages>275</Pages>
+		<ISBN>9780679725169</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>The Cult of Information</Title>
+		<Tagline>A Neo-Luddite Treatise on High-Tech, Artificial Intelligence, and the True Art of Thinking</Tagline>
+		<AuthorL>Roszak</AuthorL>
+		<AuthorF>Theodore</AuthorF>
+		<Date>2005-02-23</Date>
+		<Pages>244</Pages>
+		<ISBN>0-520-08584-1</ISBN>
+	</book>
+	<book>
+		<Title>Letters to a Young Contrarian</Title>
+		<Tagline></Tagline>
+		<AuthorL>Hitchens</AuthorL>
+		<AuthorF>Christoph</AuthorF>
+		<Date>2005-05-07</Date>
+		<Pages>141</Pages>
+		<ISBN>096542121X</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Brain Architecture</Title>
+		<Tagline>Understanding the Basic Plan</Tagline>
+		<AuthorL>Swanson</AuthorL>
+		<AuthorF>Larry</AuthorF>
+		<Date>2005-05-07</Date>
+		<Pages>241</Pages>
+		<ISBN>9780195105056</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Good Benito</Title>
+		<Tagline></Tagline>
+		<AuthorL>Lightman</AuthorL>
+		<AuthorF>Alan</AuthorF>
+		<Date>2005-05-08</Date>
+		<Pages>215</Pages>
+		<ISBN>0446671606</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Demian</Title>
+		<Tagline>The Story of Emil Sinclair's Youth</Tagline>
+		<AuthorL>Hesse</AuthorL>
+		<AuthorF>Hermann</AuthorF>
+		<Date>2005-05-09</Date>
+		<Pages>158</Pages>
+		<ISBN>0060931914</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Perfectly Reasonable Deviations from the Beaten Track</Title>
+		<Tagline>The Letters of Richard Feynman</Tagline>
+		<AuthorL>Feynman</AuthorL>
+		<AuthorF>Michelle</AuthorF>
+		<Date>2005-05-12</Date>
+		<Pages>471</Pages>
+		<ISBN>0-7382-0636-9</ISBN>
+	</book>
+	<book>
+		<Title>Eat the Rich</Title>
+		<Tagline>A Treatise on Economics</Tagline>
+		<AuthorL>O'Rourke</AuthorL>
+		<AuthorF>P.J.</AuthorF>
+		<Date>2005-04-15</Date>
+		<Pages>246</Pages>
+	</book>
+	<book>
+		<Title>Inferno</Title>
+		<Tagline></Tagline>
+		<AuthorL>Niven</AuthorL>
+		<AuthorF>Larry</AuthorF>
+		<Date>2005-04-23</Date>
+		<Pages>237</Pages>
+		<ISBN>0671826581</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Parliament of Whores</Title>
+		<Tagline>A Lone Humorist Attempts to Explain the Entire US Goverment</Tagline>
+		<AuthorL>O'Rourke</AuthorL>
+		<AuthorF>P.J.</AuthorF>
+		<Date>2005-06-01</Date>
+		<Pages>233</Pages>
+	</book>
+	<book>
+		<Title>Foundation</Title>
+		<Tagline></Tagline>
+		<AuthorL>Asimov</AuthorL>
+		<AuthorF>Isaac</AuthorF>
+		<Date>2005-06-30</Date>
+		<Pages>200</Pages>
+		<ISBN>0380440652</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Communist Manifesto, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Marx</AuthorL>
+		<AuthorF>Karl</AuthorF>
+		<Date>2005-07-25</Date>
+		<Pages>82</Pages>
+		<ISBN>9780451527103</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Nickel and Dimed</Title>
+		<Tagline></Tagline>
+		<AuthorL>Ehrenreich</AuthorL>
+		<AuthorF>Barbara</AuthorF>
+		<Date>2005-07-15</Date>
+		<Pages>221</Pages>
+		<ISBN>0805063897</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Questions that Matter</Title>
+		<Tagline>An Invitation to Philosophy</Tagline>
+		<AuthorL>Miller</AuthorL>
+		<AuthorF>Ed</AuthorF>
+		<Date>2005-08-17</Date>
+		<Pages>445</Pages>
+		<ISBN>0-07-042191-9</ISBN>
+	</book>
+	<book>
+		<Title>Franny and Zooey</Title>
+		<Tagline></Tagline>
+		<AuthorL>Salinger</AuthorL>
+		<AuthorF>J. D.</AuthorF>
+		<Date>2004-00-00</Date>
+		<Pages>208</Pages>
+		<ISBN>9780316769020</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Catcher in the Rye, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Salinger</AuthorL>
+		<AuthorF>J. D.</AuthorF>
+		<Date>1998-00-00</Date>
+		<Pages>224</Pages>
+		<ISBN>9780316769488</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Hell's Angels</Title>
+		<Tagline></Tagline>
+		<AuthorL>Thompson</AuthorL>
+		<AuthorF>Hunter</AuthorF>
+		<Date>2005-10-11</Date>
+		<Pages>273</Pages>
+		<ISBN>0-345-41008-4</ISBN>
+	</book>
+	<book>
+		<Title>Fear and Loathing in Las Vegas</Title>
+		<Tagline></Tagline>
+		<AuthorL>Thompson</AuthorL>
+		<AuthorF>Hunter</AuthorF>
+		<Date>2005-03-16</Date>
+		<Pages>204</Pages>
+		<ISBN>9780007204496</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Man Who Mistook His Wife for a Hat, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Sacks</AuthorL>
+		<AuthorF>Oliver</AuthorF>
+		<Date>2005-03-19</Date>
+		<Pages>233</Pages>
+		<ISBN>9780684853949</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Birth of the Mind, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Marcus</AuthorL>
+		<AuthorF>Gary</AuthorF>
+		<Date>2005-03-31</Date>
+		<Pages>225</Pages>
+		<ISBN>0-465-04406-9</ISBN>
+	</book>
+	<book>
+		<Title>Galatea 2.2</Title>
+		<Tagline></Tagline>
+		<AuthorL>Powers</AuthorL>
+		<AuthorF>Richard</AuthorF>
+		<Date>2005-12-06</Date>
+		<Pages>329</Pages>
+		<ISBN>9780312423131</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Design of Everyday Things, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Norman</AuthorL>
+		<AuthorF>Donald</AuthorF>
+		<Date>2006-01-04</Date>
+		<Pages>240</Pages>
+		<ISBN>0-465-06710-7</ISBN>
+	</book>
+	<book>
+		<Title>Even Cowgirls Get the Blues</Title>
+		<Tagline></Tagline>
+		<AuthorL>Robbins</AuthorL>
+		<AuthorF>Tom</AuthorF>
+		<Date>2005-00-00</Date>
+		<Pages>384</Pages>
+		<ISBN>9780553205800</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Don Quixote</Title>
+		<Tagline></Tagline>
+		<AuthorL>Cervantes</AuthorL>
+		<AuthorF>Miguel</AuthorF>
+		<Date>2006-02-13</Date>
+		<Pages>940</Pages>
+		<Notes>
+			Paperback
+			Translated by J.M. Cohen
+			The Penguin Classics
+			Published 1950
+			Reprinted 1952, 1954, 1956, 1958, 1959
+			printed in Great Brittain
+			by Richard Clay and Company, Ltd
+			Bungay, Suffolk
+		</Notes>
+	</book>
+	<book>
+		<Title>Colour of Magic, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Pratchett</AuthorL>
+		<AuthorF>Terry</AuthorF>
+		<Date>2006-06-18</Date>
+		<Pages>210</Pages>
+		<ISBN>0060855924</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Mystery of the Aleph, The</Title>
+		<Tagline>Mathematics, the Kabbalah, and the Search for Infinity</Tagline>
+		<AuthorL>Aczel</AuthorL>
+		<AuthorF>Amir</AuthorF>
+		<Date>2006-07-22</Date>
+		<Pages>248</Pages>
+		<ISBN>0-7607-7778-0</ISBN>
+	</book>
+	<book>
+		<Title>Alchemist, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Coelho</AuthorL>
+		<AuthorF>Paulo</AuthorF>
+		<Date>2006-08-13</Date>
+		<Pages>177</Pages>
+		<ISBN>0-06-250217-4</ISBN>
+	</book>
+	<book>
+		<Title>One Hundred Years of Solitude</Title>
+		<Tagline></Tagline>
+		<AuthorL>Marquez</AuthorL>
+		<AuthorF>Gabriel</AuthorF>
+		<Date>2006-10-07</Date>
+		<Pages>422</Pages>
+		<ISBN>978-0060929794</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Solaris</Title>
+		<Tagline></Tagline>
+		<AuthorL>Lem</AuthorL>
+		<AuthorF>Stanislaw</AuthorF>
+		<Date>2007-01-11</Date>
+		<Pages>204</Pages>
+		<ISBN>0-15-602760-7</ISBN>
+	</book>
+	<book>
+		<Title>Pattern Language, A</Title>
+		<Tagline>Towns, Buildings, Construction</Tagline>
+		<AuthorL>Alexander</AuthorL>
+		<AuthorF>Christopher</AuthorF>
+		<Date>2006-11-20</Date>
+		<Pages>1216</Pages>
+		<ISBN>0-19-501919-9</ISBN>
+	</book>
+	<book>
+		<Title>To Your Scattered Bodies Go</Title>
+		<Tagline></Tagline>
+		<AuthorL>Farmer</AuthorL>
+		<AuthorF>Philip Jose</AuthorF>
+		<Date>2007-01-14</Date>
+		<Pages>224</Pages>
+		<ISBN>0345419677</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Designing Interfaces</Title>
+		<Tagline>Patterns for Effective Interaction Design</Tagline>
+		<AuthorL>Tidwell</AuthorL>
+		<AuthorF>Jenifer</AuthorF>
+		<Date>2007-02-05</Date>
+		<Pages>310</Pages>
+		<ISBN>0596008031</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Extreme Programming Explained</Title>
+		<Tagline>Embrace Change</Tagline>
+		<AuthorL>Beck</AuthorL>
+		<AuthorF>Kent</AuthorF>
+		<Date>2007-02-28</Date>
+		<Pages>189</Pages>
+		<ISBN>0-321-27865-8</ISBN>
+	</book>
+	<book>
+		<Title>Basic Book of Organic Gardening, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Rodale</AuthorL>
+		<AuthorF>Robert</AuthorF>
+		<Date>2007-03-16</Date>
+		<Pages>376</Pages>
+		<ISBN>0-345-24420-6-195</ISBN>
+	</book>
+	<book>
+		<Title>Mastery of Love, The</Title>
+		<Tagline>A Toltec Widsom Book</Tagline>
+		<AuthorL>Ruiz</AuthorL>
+		<AuthorF>Don Miguel</AuthorF>
+		<Date>2007-06-17</Date>
+		<Pages>205</Pages>
+	</book>
+	<book>
+		<Title>Ancestor's Tale, The</Title>
+		<Tagline>A Pilgrimage to the Dawn of Evolution</Tagline>
+		<AuthorL>Dawkins</AuthorL>
+		<AuthorF>Richard</AuthorF>
+		<Date>2007-07-16</Date>
+		<Pages>673</Pages>
+		<ISBN>061861916X</ISBN>
+	</book>
+	<book>
+		<Title>Refactoring</Title>
+		<Tagline>Improving the Design of Existing Code</Tagline>
+		<AuthorL>Fowler</AuthorL>
+		<AuthorF>Martin</AuthorF>
+		<Date>2007-09-06</Date>
+		<Pages>418</Pages>
+		<ISBN>9780201485677</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Catch-22</Title>
+		<Tagline></Tagline>
+		<AuthorL>Heller</AuthorL>
+		<AuthorF>Joseph</AuthorF>
+		<Date>2007-10-28</Date>
+		<Pages>463</Pages>
+		<ISBN>0-440-11120-X</ISBN>
+	</book>
+	<book>
+		<Title>Amateur Magician's Handbook, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Hay</AuthorL>
+		<AuthorF>Henry</AuthorF>
+		<Date>2007-09-27</Date>
+		<Pages>404</Pages>
+		<ISBN>0-7858-0204-5</ISBN>
+	</book>
+	<book>
+		<Title>Sputnik Sweetheart</Title>
+		<Tagline></Tagline>
+		<AuthorL>Murakami</AuthorL>
+		<AuthorF>Haruki</AuthorF>
+		<Date>2007-12-15</Date>
+		<Pages>210</Pages>
+		<ISBN>0375726055</ISBN>
+	</book>
+	<book>
+		<Title>I Am a Strange Loop</Title>
+		<Tagline></Tagline>
+		<AuthorL>Hofstadter</AuthorL>
+		<AuthorF>Douglas</AuthorF>
+		<Date>2008-04-11</Date>
+		<Pages>412</Pages>
+		<ISBN>0-465-03078-5</ISBN>
+	</book>
+	<book>
+		<Title>Computers and Typesetting</Title>
+		<Tagline>The TeXbook</Tagline>
+		<AuthorL>Knuth</AuthorL>
+		<AuthorF>Donald E.</AuthorF>
+		<Date>2008-07-08</Date>
+		<Pages>483</Pages>
+		<ISBN>0-201-13447-0</ISBN>
+	</book>
+	<book>
+		<Title>Flatland</Title>
+		<Tagline>A Romance of Many Dimensions</Tagline>
+		<AuthorL>Abbott</AuthorL>
+		<AuthorF>Edwin</AuthorF>
+		<Date>2008-08-11</Date>
+		<Pages>147</Pages>
+		<ISBN>0-451-52976-6</ISBN>
+	</book>
+	<book>
+		<Title>Moby Dick</Title>
+		<Tagline></Tagline>
+		<AuthorL>Melville</AuthorL>
+		<AuthorF>Herman</AuthorF>
+		<Date>2008-08-12</Date>
+		<Pages>543</Pages>
+		<ISBN>0-451-52021-1</ISBN>
+	</book>
+	<book>
+		<Title>Computers and Typesetting</Title>
+		<Tagline>The METAFONTbook</Tagline>
+		<AuthorL>Knuth</AuthorL>
+		<AuthorF>Donald E.</AuthorF>
+		<Date>2008-08-12</Date>
+		<Pages>361</Pages>
+		<ISBN>0-201-13445-4</ISBN>
+	</book>
+	<book>
+		<Title>Ringworld</Title>
+		<Tagline></Tagline>
+		<AuthorL>Niven</AuthorL>
+		<AuthorF>Larry</AuthorF>
+		<Date>2008-09-09</Date>
+		<Pages>352</Pages>
+		<ISBN>0575077026</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Guide to Getting It On!</Title>
+		<Tagline></Tagline>
+		<AuthorL>Joannides</AuthorL>
+		<AuthorF>Paul</AuthorF>
+		<Date>2008-10-15</Date>
+		<Pages>782</Pages>
+		<ISBN>1-885535-67-8</ISBN>
+	</book>
+	<book>
+		<Title>Smalltalk Best Practice Patterns</Title>
+		<Tagline></Tagline>
+		<AuthorL>Beck</AuthorL>
+		<AuthorF>Kent</AuthorF>
+		<Date>2008-12-05</Date>
+		<Pages>224</Pages>
+		<ISBN>0-13-476904-X</ISBN>
+	</book>
+	<book>
+		<Title>I, Robot</Title>
+		<Tagline></Tagline>
+		<AuthorL>Asimov</AuthorL>
+		<AuthorF>Isaac</AuthorF>
+		<Date>2008-12-08</Date>
+		<Pages>95</Pages>
+		<ISBN>0586025324</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Holes</Title>
+		<Tagline></Tagline>
+		<AuthorL>Sachar</AuthorL>
+		<AuthorF>Louis</AuthorF>
+		<Date>2008-12-28</Date>
+		<Pages>233</Pages>
+		<ISBN>0-439-25322-5</ISBN>
+	</book>
+	<book>
+		<Title>Harry Potter and the Sorcerer's Stone</Title>
+		<Tagline></Tagline>
+		<AuthorL>Rowling</AuthorL>
+		<AuthorF>J. K.</AuthorF>
+		<Date>2008-12-29</Date>
+		<Pages>312</Pages>
+		<ISBN>0-590-35342-X</ISBN>
+	</book>
+	<book>
+		<Title>Harry Potter and the Chamber of Secrets</Title>
+		<Tagline></Tagline>
+		<AuthorL>Rowling</AuthorL>
+		<AuthorF>J. K.</AuthorF>
+		<Date>2009-01-06</Date>
+		<Pages>464 </Pages>
+		<ISBN>0439064872</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Harry Potter and the Prisoner of Azkaban</Title>
+		<Tagline></Tagline>
+		<AuthorL>Rowling</AuthorL>
+		<AuthorF>J. K.</AuthorF>
+		<Date>2009-01-07</Date>
+		<Pages>435</Pages>
+		<ISBN>0439136369</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Harry Potter and the Goblet of Fire</Title>
+		<Tagline></Tagline>
+		<AuthorL>Rowling</AuthorL>
+		<AuthorF>J. K.</AuthorF>
+		<Date>2009-01-11</Date>
+		<Pages>866</Pages>
+		<ISBN>0439139600</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Harry Potter and the Order of the Phoenix</Title>
+		<Tagline></Tagline>
+		<AuthorL>Rowling</AuthorL>
+		<AuthorF>J. K.</AuthorF>
+		<Date>2009-01-15</Date>
+		<Pages>870</Pages>
+		<ISBN>0439358078</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Harry Potter and the Half-Blood Prince</Title>
+		<Tagline></Tagline>
+		<AuthorL>Rowling</AuthorL>
+		<AuthorF>J. K.</AuthorF>
+		<Date>2009-01-17</Date>
+		<Pages>831</Pages>
+		<ISBN>0439785960</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Harry Potter and the Deathly Hallows</Title>
+		<Tagline></Tagline>
+		<AuthorL>Rowling</AuthorL>
+		<AuthorF>J. K.</AuthorF>
+		<Date>2009-01-18</Date>
+		<Pages>759</Pages>
+		<ISBN>0545139708</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Don't Know Much About History</Title>
+		<Tagline></Tagline>
+		<AuthorL>Davis</AuthorL>
+		<AuthorF>Kenneth C.</AuthorF>
+		<Date>2009-02-21</Date>
+		<Pages>462</Pages>
+		<ISBN>0-380-71252-0</ISBN>
+	</book>
+	<book>
+		<Title>Artificial Intelligence</Title>
+		<Tagline>A Philosophical Introduction</Tagline>
+		<AuthorL>Copeland</AuthorL>
+		<AuthorF>Jack</AuthorF>
+		<Date>2009-04-29</Date>
+		<Pages>315</Pages>
+		<ISBN>0-631-18385-X</ISBN>
+	</book>
+	<book>
+		<Title>House of Leaves</Title>
+		<Tagline></Tagline>
+		<AuthorL>Danielewski</AuthorL>
+		<AuthorF>Mark</AuthorF>
+		<Date>2009-06-02</Date>
+		<Pages>708</Pages>
+		<ISBN>0-375-70376-4</ISBN>
+	</book>
+	<book>
+		<Title>Omnilingual</Title>
+		<Tagline></Tagline>
+		<AuthorL>Piper</AuthorL>
+		<AuthorF>H. Beam</AuthorF>
+		<Date>2009-06-07</Date>
+		<Pages>46</Pages>
+		<ISBN>1428073124</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Homo Zapiens</Title>
+		<Tagline></Tagline>
+		<AuthorL>Pelevin</AuthorL>
+		<AuthorF>Victor</AuthorF>
+		<Date>2010-08-23</Date>
+		<Pages>250</Pages>
+		<ISBN>0-14-200181-3</ISBN>
+	</book>
+	<book>
+		<Title>Skinny Legs and All</Title>
+		<Tagline></Tagline>
+		<AuthorL>Robbins</AuthorL>
+		<AuthorF>Tom</AuthorF>
+		<Date>2011-01-18</Date>
+		<Pages>422</Pages>
+		<ISBN>0-553-37788-4</ISBN>
+	</book>
+	<book>
+		<Title>Aleph and Other Stories, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Borges</AuthorL>
+		<AuthorF>Jorge</AuthorF>
+		<Date>2011-06-05</Date>
+		<Pages>210</Pages>
+		<ISBN>978-0-14-243788-9</ISBN>
+	</book>
+	<book>
+		<Title>Feynman Lectures on Computation</Title>
+		<Tagline></Tagline>
+		<AuthorL>Feynman</AuthorL>
+		<AuthorF>Richard</AuthorF>
+		<Date>2011-10-23</Date>
+		<Pages>303</Pages>
+		<ISBN>0-201-48991-0</ISBN>
+	</book>
+	<book>
+		<Title>Labyrinths</Title>
+		<Tagline></Tagline>
+		<AuthorL>Borges</AuthorL>
+		<AuthorF>Jorge</AuthorF>
+		<Date>2011-11-07</Date>
+		<Pages>256</Pages>
+		<ISBN>978-0-8112-1699-9</ISBN>
+	</book>
+	<book>
+		<Title>Foxfire 3</Title>
+		<Tagline></Tagline>
+		<AuthorL>Wigginton</AuthorL>
+		<AuthorF>Eliot</AuthorF>
+		<Date>0000-00-00</Date>
+		<Pages>511</Pages>
+		<ISBN>0-385-02272-7</ISBN>
+	</book>
+	<book>
+		<Title>Portrait of the Artist as a Young Man, A</Title>
+		<Tagline></Tagline>
+		<AuthorL>Joyce</AuthorL>
+		<AuthorF>James</AuthorF>
+		<Date>2012-03-23</Date>
+		<Pages>255</Pages>
+		<ISBN>0-14-243734-4</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Demon-Haunted World, The</Title>
+		<Tagline>Science as a Candle in the Dark</Tagline>
+		<AuthorL>Sagan</AuthorL>
+		<AuthorF>Carl</AuthorF>
+		<Date>2014-11-05</Date>
+		<Pages>437</Pages>
+		<ISBN>978-0-345-40946-1</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Maytrees, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Dillard</AuthorL>
+		<AuthorF>Annie</AuthorF>
+		<Date>2015-02-05</Date>
+		<Pages>216</Pages>
+		<ISBN>978-0-06-123953-3</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Proofiness</Title>
+		<Tagline>The Dark Arts of Mathematical Deception</Tagline>
+		<AuthorL>Seife</AuthorL>
+		<AuthorF>Charles</AuthorF>
+		<Date>2015-10-10</Date>
+		<Pages>295</Pages>
+		<ISBN>978-0-670-02216-8</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Greatest Show on Earth, The</Title>
+		<Tagline>The Evidence for Evolution</Tagline>
+		<AuthorL>Dawkins</AuthorL>
+		<AuthorF>Richard</AuthorF>
+		<Date>2015-10-16</Date>
+		<Pages>472</Pages>
+		<ISBN>978-1-4165-9479-6</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
+		<Title>When Things Start to Think</Title>
+		<Tagline></Tagline>
+		<AuthorL>Gershenfeld</AuthorL>
+		<AuthorF>Neil</AuthorF>
+		<Date>2015-10-19</Date>
+		<Pages>225</Pages>
+		<ISBN>0-8050-5874-5</ISBN>
+		<FakeISBN/>
+	</book>
+</freefour>
