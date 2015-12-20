@@ -2,8 +2,8 @@
 layout: post
 title: Rewriting as a Computational Paradigm
 custom_js:
-draft: true
 # - shuffle
+draft: false
 ---
 There are all sorts of ways of getting a computer to compute.
 For many programmers, the most natural way is using an [imperative-style language](http://en.wikipedia.org/wiki/Imperative_programming) (e.g., C, Java, Python), where you lay out the exact steps of *how* computation should take place---do this, then this, then this.
@@ -12,7 +12,7 @@ In writing declarative programs, one describes the goals of computation without 
 
 The most popular kinds of declarative languages these days are the [functional languages](http://en.wikipedia.org/wiki/Functional_programming) (e.g., OCaml, Haskel, Lisp), which make it easy to build expressions describing facts (as opposed to statements describing actions).
 However, there are other kinds of declarative paradigms focusing on [logical deduction](https://en.wikipedia.org/wiki/Logic_programming) (e.g., Prolog) or [data query](https://en.wikipedia.org/wiki/Query_language) (e.g., SQL, XQuery, XSLT).
-One of the fringe arms on the constellation of declarative languages are the rewriting languages.
+One of the fringe arms on the constellation of declarative languages are the [rewriting](https://en.wikipedia.org/wiki/Rewriting) languages.
 
 In rewriting languages, the state of a running program is generally a *thing* (a string, a tree, an expression) that gets transformed during each step of computation to another *thing*.
 There are string rewriting languages, term rewriting languages, graph rewriting languages, etc.
