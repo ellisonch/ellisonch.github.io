@@ -362,8 +362,8 @@ eq nil ; L:List = L:List .
 eq L:List => L:List ; nil .
 eq L:List => nil ; L:List .
 </pre>
-However, such equations would actually result in nontermination, if actually used.
-Maude just knows that they're true, and applies them in the case that it enables other rules to apply.
+However, such equations would result in nontermination, if actually used.
+With the annotation, Maude just knows that they're true and applies them in the case that it enables other rules to apply.
 This is what is meant by rewriting in the presence of equational theories, or rewriting "modulo" theories.
 
 Suddenly, writing rules involving lists becomes a lot easier:
