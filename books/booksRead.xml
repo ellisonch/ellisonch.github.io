@@ -2019,7 +2019,7 @@
 		<Title>To Your Scattered Bodies Go</Title>
 		<Tagline></Tagline>
 		<AuthorL>Farmer</AuthorL>
-		<AuthorF>Philip Jose</AuthorF>
+		<AuthorF>Philip José</AuthorF>
 		<Date>2007-01-14</Date>
 		<Pages>224</Pages>
 		<ISBN>0345419677</ISBN>
@@ -2377,7 +2377,6 @@
 		<Date>2014-11-05</Date>
 		<Pages>437</Pages>
 		<ISBN>978-0-345-40946-1</ISBN>
-		<FakeISBN/>
 	</book>
 	<book>
 		<Title>Maytrees, The</Title>
@@ -2387,7 +2386,6 @@
 		<Date>2015-02-05</Date>
 		<Pages>216</Pages>
 		<ISBN>978-0-06-123953-3</ISBN>
-		<FakeISBN/>
 	</book>
 	<book>
 		<Title>Proofiness</Title>
@@ -2397,7 +2395,6 @@
 		<Date>2015-10-10</Date>
 		<Pages>295</Pages>
 		<ISBN>978-0-670-02216-8</ISBN>
-		<FakeISBN/>
 	</book>
 	<book>
 		<Title>Greatest Show on Earth, The</Title>
@@ -2407,7 +2404,6 @@
 		<Date>2015-10-16</Date>
 		<Pages>472</Pages>
 		<ISBN>978-1-4165-9479-6</ISBN>
-		<FakeISBN/>
 	</book>
 	<book>
 		<Title>When Things Start to Think</Title>
@@ -2417,6 +2413,14 @@
 		<Date>2015-10-19</Date>
 		<Pages>225</Pages>
 		<ISBN>0-8050-5874-5</ISBN>
-		<FakeISBN/>
+	</book>
+	<book>
+		<Title>Best of Philip Jose Farmer, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Farmer</AuthorL>
+		<AuthorF>Philip José</AuthorF>
+		<Date>2015-12-25</Date>
+		<Pages>572</Pages>
+		<ISBN>1-59606-036-0</ISBN>
 	</book>
 </freefour>
