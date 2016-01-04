@@ -150,7 +150,7 @@ Of course, numbers and arithmetic are builtin to most languages; we're only usin
 #### Syntax
 Because we're talking about *term*-rewriting, we need a way to define what terms are allowed.
 This is like describing a syntax that we're going to allow ourselves to talk about.
-Natural numbers are build recursively using the following [signature](http://en.wikipedia.org/wiki/Signature_(logic)):
+Natural numbers are built recursively using the following [signature](http://en.wikipedia.org/wiki/Signature_(logic)):
 
 <pre>
 sort Nat .
