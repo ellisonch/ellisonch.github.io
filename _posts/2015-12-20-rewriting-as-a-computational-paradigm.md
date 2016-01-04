@@ -339,7 +339,7 @@ eq reverseAux(X:Int :: L:ConsList, L':ConsList)
 Not a whole lot of surprises here; these definitions would feel at home in a typical functional language.
 
 #### Real Lists
-Although the lists above work, Maude allows the programmer to specify a richer kind of lists:
+Although the lists above work, Maude allows the programmer to specify a richer kind of list:
 <pre>
 sort List .
 subsort Int < List .
