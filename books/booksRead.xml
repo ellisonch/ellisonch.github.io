@@ -2423,4 +2423,13 @@
 		<Pages>572</Pages>
 		<ISBN>1-59606-036-0</ISBN>
 	</book>
+	<book>
+		<Title>Sense of Style, The</Title>
+		<Tagline>The Thinking Person's Guide to Writing in the 21st Century</Tagline>
+		<AuthorL>Pinker</AuthorL>
+		<AuthorF>Steven</AuthorF>
+		<Date>2016-01-01</Date>
+		<Pages>307</Pages>
+		<ISBN>978-0-670-02585-5</ISBN>
+	</book>
 </freefour>
