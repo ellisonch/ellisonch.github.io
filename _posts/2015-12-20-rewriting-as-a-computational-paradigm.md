@@ -347,7 +347,7 @@ subsort Int < List .
 op nil : -> List .
 op _;_ : List List -> List [assoc id: nil] .
 </pre>
-The <code>[assoc]</code> annotations tells Maude that the operator (<code>_;_</code>) is associative, so that the parse trees <code>(2 ; (3 ; 5))</code> should be considered equivalent to <code>((2 ; 3) ; 5)</code>.
+The <code>[assoc]</code> annotation tells Maude that the operator (<code>_;_</code>) is associative, so that the parse tree <code>(2 ; (3 ; 5))</code> should be considered equivalent to <code>((2 ; 3) ; 5)</code>.
 Without telling it otherwise, Maude doesn't know how to parse <code>(2 ; 3 ; 5)</code> unambiguously, and will simply choose a parsing.
 The <code>[id: nil]</code> annotation tells Maude that the <code>nil</code> operator is the identity element for the <code>_;_</code> operator.
 These annotations are essentially equivalent to the following equations:
