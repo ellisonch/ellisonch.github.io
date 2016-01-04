@@ -160,7 +160,7 @@ op s(_) : Nat -> Nat .
 </pre>
 
 This says that we're defining a new sort (thing, type) "<code>Nat</code>".
-We can build up <code>Nat</code>s in two ways: <code>0</code> is a <code>Nat</code>, and <code>s</code> (successor) is a function taking <code>Nat</code> arguments and resulting in a <code>Nat</code>.
+We can build up <code>Nat</code>s in two ways: <code>0</code> is a <code>Nat</code>, and <code>s</code> (successor) is an operator taking <code>Nat</code> arguments and resulting in a <code>Nat</code>.
 
 In [BNF](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_Form), the above would be written as
 <pre>
