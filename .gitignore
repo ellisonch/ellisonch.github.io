@@ -1,4 +1,6 @@
 Gemfile.lock
 _site/
+_rawbib/
 .sass-cache
 *.exe
+a.out
