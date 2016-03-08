@@ -2432,4 +2432,14 @@
 		<Pages>307</Pages>
 		<ISBN>978-0-670-02585-5</ISBN>
 	</book>
+	<book>
+		<Title>Surfaces and Essences</Title>
+		<Tagline>Analogy as the Fuel and Fire of Thinking</Tagline>
+		<AuthorL>Hofstadter</AuthorL>
+		<AuthorF>Douglas</AuthorF>
+		<Date>2016-03-08</Date>
+		<Pages>578</Pages>
+		<ISBN>978-0-465-01847-5</ISBN>
+		<Notes>also by Emmanuel Sander</Notes>
+	</book>
 </freefour>
