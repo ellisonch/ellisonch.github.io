@@ -2,7 +2,7 @@
 # This file contains configuration flags to customize your site
 #
 
-highlighter: pygments
+highlighter: rouge
 permalink: /:title/
 markdown: kramdown
 
