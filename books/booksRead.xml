@@ -2442,4 +2442,13 @@
 		<ISBN>978-0-465-01847-5</ISBN>
 		<Notes>also by Emmanuel Sander</Notes>
 	</book>
+	<book>
+		<Title>Side Effects</Title>
+		<Tagline></Tagline>
+		<AuthorL>Allen</AuthorL>
+		<AuthorF>Woody</AuthorF>
+		<Date>2016-03-12</Date>
+		<Pages>149</Pages>
+		<ISBN>0394511042</ISBN>
+	</book>
 </freefour>
