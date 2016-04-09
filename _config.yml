@@ -11,6 +11,7 @@ version: v1.0.0
 
 gems:
     - jekyll-sitemap
+    - jekyll-redirect-from
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
