@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/chucky
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.freefour.com
+  * I am chucky (https://keybase.io/chucky) on keybase.
+  * I have a public key ASB6YQ-iTwmhR7BTtbP-7V-391Q5ozR9iG4iEUV2Ozhamwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01207a610fa24f09a147b053b5b3feed5fb7f75439a3347d886e221145763b385a9b0a",
+            "host": "keybase.io",
+            "kid": "01207a610fa24f09a147b053b5b3feed5fb7f75439a3347d886e221145763b385a9b0a",
+            "uid": "ebc3981349e76f915662bbc56f776200",
+            "username": "chucky"
+        },
+        "service": {
+            "hostname": "www.freefour.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.15"
+    },
+    "ctime": 1460234715,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1460234566,
+        "hash": "d1a01c004939fe1751f6ea38bdb803b431c5c8d6327dc6d0a6ca1373d2a686c2d233b6b112486b39eb0d98d2ccb6dc87e08ef90
+71a968a9b6d52b4ffdf1460ce",
+        "seqno": 436921
+    },
+    "prev": "eacd79a55f197a12b3b5c3cfaa1173f9729f2e578fad8063f0303823fb1fad1b",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgemEPok8JoUewU7Wz/u1ft/dUOaM0fYhuIhFFdjs4WpsKp3BheWxvYWTFAvZ7ImJvZHkiOnsi
+a2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwN2E2MTBmYTI0ZjA5YTE0N2IwNTNiNWIzZmVlZDVmYjdmNzU0MzlhMzM0N2Q4ODZlMjIxMTQ1NzYzYjM4NWE5YjBh
+IiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwN2E2MTBmYTI0ZjA5YTE0N2IwNTNiNWIzZmVlZDVmYjdmNzU0MzlhMzM0N2Q4ODZlMjIxMTQ1NzYz
+YjM4NWE5YjBhIiwidWlkIjoiZWJjMzk4MTM0OWU3NmY5MTU2NjJiYmM1NmY3NzYyMDAiLCJ1c2VybmFtZSI6ImNodWNreSJ9LCJzZXJ2aWNlIjp7Imhvc3Ru
+YW1lIjoid3d3LmZyZWVmb3VyLmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xp
+ZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTUifSwiY3RpbWUiOjE0NjAyMzQ3MTUsImV4cGlyZV9pbiI6NTA0
+NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ2MDIzNDU2NiwiaGFzaCI6ImQxYTAxYzAwNDkzOWZlMTc1MWY2ZWEzOGJkYjgwM2I0MzFjNWM4ZDYz
+MjdkYzZkMGE2Y2ExMzczZDJhNjg2YzJkMjMzYjZiMTEyNDg2YjM5ZWIwZDk4ZDJjY2I2ZGM4N2UwOGVmOTA3MWE5NjhhOWI2ZDUyYjRmZmRmMTQ2MGNlIiwi
+c2Vxbm8iOjQzNjkyMX0sInByZXYiOiJlYWNkNzlhNTVmMTk3YTEyYjNiNWMzY2ZhYTExNzNmOTcyOWYyZTU3OGZhZDgwNjNmMDMwMzgyM2ZiMWZhZDFiIiwi
+c2Vxbm8iOjEwLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQInHjSNAVWj4H/4MYjZPJDcJjFuhkT4/b00obQNusa0rrv/JI8lQetux2eUkKE2oy4df4Fadlif4
+YfomeJoNJQGoc2lnX3R5cGUgo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/chucky
+
+==================================================================
