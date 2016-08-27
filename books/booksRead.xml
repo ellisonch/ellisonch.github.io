@@ -2451,4 +2451,13 @@
 		<Pages>149</Pages>
 		<ISBN>0394511042</ISBN>
 	</book>
+	<book>
+		<Title>Capitalism and Freedom</Title>
+		<Tagline></Tagline>
+		<AuthorL>Friedman</AuthorL>
+		<AuthorF>Milton</AuthorF>
+		<Date>2016-08-26</Date>
+		<Pages>208</Pages>
+		<ISBN>978-0-226-26421-9</ISBN>
+	</book>
 </freefour>
