@@ -64,7 +64,7 @@
 		"publisher": "ACM",
 		"year": "2012",
 		"pages": "335–346",
-		"doi": "http://doi.acm.org/10.1145/2254064.2254104",
+		"doi": "http://dx.doi.org/10.1145/2254064.2254104",
 		"pdf": "/papers/regehr-chen-cuoq-eide-ellison-yang-2012-pldi.pdf",
 		"slides": "/papers/regehr-chen-cuoq-eide-ellison-yang-2012-pldi-slides.pdf",
 		"project": "http://embed.cs.utah.edu/creduce/",
