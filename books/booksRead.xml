@@ -2306,6 +2306,15 @@
 		<FakeISBN/>
 	</book>
 	<book>
+		<Title>Code Complete</Title>
+		<Tagline></Tagline>
+		<AuthorL>McConnell</AuthorL>
+		<AuthorF>Steve</AuthorF>
+		<Date>2010-01-01</Date>
+		<Pages>862</Pages>
+		<ISBN>0-7356-1967-0</ISBN>
+	</book>
+	<book>
 		<Title>Homo Zapiens</Title>
 		<Tagline></Tagline>
 		<AuthorL>Pelevin</AuthorL>
