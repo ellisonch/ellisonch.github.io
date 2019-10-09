@@ -2478,4 +2478,13 @@
 		<Pages>282</Pages>
 		<ISBN>978-0-14-311664-6</ISBN>
 	</book>
+	<book>
+		<Title>Freakonomics</Title>
+		<Tagline>A Rogue Economist Explores the Hidden Side of Everything</Tagline>
+		<AuthorL>Levitt and Dubner</AuthorL>
+		<AuthorF>Steven and Stephen</AuthorF>
+		<Date>2019-10-08</Date>
+		<Pages>242</Pages>
+		<ISBN>0-06-073132-X</ISBN>
+	</book>
 </freefour>
