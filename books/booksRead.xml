@@ -2487,4 +2487,14 @@
 		<Pages>242</Pages>
 		<ISBN>0-06-073132-X</ISBN>
 	</book>
+	<book>
+		<Title>Ringworld Engineers, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Niven</AuthorL>
+		<AuthorF>Larry</AuthorF>
+		<Date>2019-11-14</Date>
+		<Pages>355</Pages>
+		<ISBN>978-1455126590</ISBN>
+	</book>
+	
 </freefour>
