@@ -2496,5 +2496,14 @@
 		<Pages>355</Pages>
 		<ISBN>978-1455126590</ISBN>
 	</book>
+	<book>
+		<Title>Roadside Picnic</Title>
+		<Tagline></Tagline>
+		<AuthorL>Strugatsky</AuthorL>
+		<AuthorF>Arkady and Boris</AuthorF>
+		<Date>2019-11-16</Date>
+		<Pages>209</Pages>
+		<ISBN>978-1-61374-341-6</ISBN>
+	</book>
 	
 </freefour>
