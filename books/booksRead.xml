@@ -2505,5 +2505,22 @@
 		<Pages>209</Pages>
 		<ISBN>978-1-61374-341-6</ISBN>
 	</book>
-	
+	<book>
+		<Title>Surviving a Borderline Parent</Title>
+		<Tagline>How to Heal Your Childhood Wounds and Build Trust, Boundaries, and Self-Esteem</Tagline>
+		<AuthorL>Roth and Friedman</AuthorL>
+		<AuthorF>Kimberlee and Freda</AuthorF>
+		<Date>2019-11-24</Date>
+		<Pages>185</Pages>
+		<ISBN>9781515977353</ISBN>
+	</book>
+	<book>
+		<Title>Moon Is a Harsh Mistress, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Heinlein</AuthorL>
+		<AuthorF>Robert A.</AuthorF>
+		<Date>2019-12-05</Date>
+		<Pages>384</Pages>
+		<ISBN>9780786198856</ISBN>
+	</book>
 </freefour>
