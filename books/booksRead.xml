@@ -2532,4 +2532,13 @@
 		<Pages>288</Pages>
 		<ISBN>978-1-57224-770-3</ISBN>
 	</book>
+	<book>
+		<Title>Against Empathy</Title>
+		<Tagline>The Case for Rational Compassion</Tagline>
+		<AuthorL>Bloom</AuthorL>
+		<AuthorF>Paul</AuthorF>
+		<Date>2019-12-21</Date>
+		<Pages>285</Pages>
+		<ISBN>978-0-06-233933-1</ISBN>
+	</book>
 </freefour>
