@@ -2541,4 +2541,13 @@
 		<Pages>285</Pages>
 		<ISBN>978-0-06-233933-1</ISBN>
 	</book>
+	<book>
+		<Title>Snow Crash</Title>
+		<Tagline></Tagline>
+		<AuthorL>Stephenson</AuthorL>
+		<AuthorF>Neal</AuthorF>
+		<Date>2020-01-01</Date>
+		<Pages>563</Pages>
+		<ISBN>978-0-553-38095-8</ISBN>
+	</book>
 </freefour>
