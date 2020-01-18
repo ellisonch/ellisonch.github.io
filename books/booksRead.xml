@@ -2559,4 +2559,13 @@
 		<Pages>322</Pages>
 		<ISBN>978-1-4767-7761-0</ISBN>
 	</book>
+	<book>
+		<Title>Neuromancer</Title>
+		<Tagline></Tagline>
+		<AuthorL>Gibson</AuthorL>
+		<AuthorF>William</AuthorF>
+		<Date>2020-01-18</Date>
+		<Pages>304</Pages>
+		<ISBN>978-0-441-00746-2</ISBN>
+	</book>
 </freefour>
