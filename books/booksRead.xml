@@ -2568,4 +2568,13 @@
 		<Pages>304</Pages>
 		<ISBN>978-0-441-00746-2</ISBN>
 	</book>
+	<book>
+		<Title>Thinking, Fast and Slow</Title>
+		<Tagline></Tagline>
+		<AuthorL>Kahneman</AuthorL>
+		<AuthorF>Daniel</AuthorF>
+		<Date>2020-02-17</Date>
+		<Pages>499</Pages>
+		<ISBN>978-0-374-53355-7</ISBN>
+	</book>
 </freefour>
