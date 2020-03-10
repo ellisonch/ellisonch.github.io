@@ -29,7 +29,7 @@ The bulk of the code becomes:
 {% highlight c %}
 while (true) {
 	int r = rand();
-	if (f(r) {
+	if f(r) {
 		success(r);
 		break;
 	}
