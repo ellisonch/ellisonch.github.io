@@ -2577,4 +2577,13 @@
 		<Pages>499</Pages>
 		<ISBN>978-0-374-53355-7</ISBN>
 	</book>
+	<book>
+		<Title>Moral Landscape, The</Title>
+		<Tagline>How Science Can Determine Human Values</Tagline>
+		<AuthorL>Harris</AuthorL>
+		<AuthorF>Sam</AuthorF>
+		<Date>2020-08-18</Date>
+		<Pages>320</Pages>
+		<ISBN>9781439171233</ISBN>
+	</book>
 </freefour>
