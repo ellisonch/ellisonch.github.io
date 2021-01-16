@@ -75,7 +75,7 @@ function onloadShuffleTimes() {
 	};
 
 	var el = document.getElementById('shuffle-num-time-graph');
-	console.log(el);
+	// console.log(el);
 	var chart = new google.visualization.LineChart(el);
 
 	chart.draw(data, options);
@@ -161,7 +161,7 @@ function onloadShuffle() {
 	};
 
 	var el = document.getElementById('shuffle-num-calls-graph');
-	console.log(el);
+	// console.log(el);
 	var chart = new google.visualization.LineChart(el);
 
 	chart.draw(data, options);
