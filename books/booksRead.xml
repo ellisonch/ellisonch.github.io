@@ -2586,4 +2586,12 @@
 		<Pages>320</Pages>
 		<ISBN>9781439171233</ISBN>
 	</book>
+	<book>
+		<Title>Lying</Title>
+		<AuthorL>Harris</AuthorL>
+		<AuthorF>Sam</AuthorF>
+		<Date>2021-04-18</Date>
+		<Pages>113</Pages>
+		<ISBN>978-1-9400-5101-7</ISBN>
+	</book>
 </freefour>
