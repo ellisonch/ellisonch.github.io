@@ -2594,4 +2594,12 @@
 		<Pages>113</Pages>
 		<ISBN>978-1-9400-5101-7</ISBN>
 	</book>
+	<book>
+		<Title>Letter to a Christian Nation</Title>
+		<AuthorL>Harris</AuthorL>
+		<AuthorF>Sam</AuthorF>
+		<Date>2021-04-20</Date>
+		<Pages>112</Pages>
+		<ISBN>978-0-307-26660-6</ISBN>
+	</book>
 </freefour>
