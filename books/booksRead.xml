@@ -2602,4 +2602,13 @@
 		<Pages>112</Pages>
 		<ISBN>978-0-307-26660-6</ISBN>
 	</book>
+	<book>
+		<Title>Misquoting Jesus</Title>
+		<Tagline>The Story Behind Who Changed the Bible and Why</Tagline>
+		<AuthorL>Ehrman</AuthorL>
+		<AuthorF>Bart</AuthorF>
+		<Date>2021-10-14</Date>
+		<Pages>266</Pages>
+		<ISBN>978-0-06-085951-0</ISBN>
+	</book>
 </freefour>
