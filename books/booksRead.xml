@@ -2611,4 +2611,13 @@
 		<Pages>266</Pages>
 		<ISBN>978-0-06-085951-0</ISBN>
 	</book>
+	<book>
+		<Title>When Einstein Walked with Gödel</Title>
+		<Tagline>Excursions to the Edge of Thought</Tagline>
+		<AuthorL>Holt</AuthorL>
+		<AuthorF>Jim</AuthorF>
+		<Date>2022-02-15</Date>
+		<Pages>368</Pages>
+		<ISBN>978-0-374-14670-2</ISBN>
+	</book>
 </freefour>
