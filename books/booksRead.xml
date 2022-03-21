@@ -2620,4 +2620,13 @@
 		<Pages>368</Pages>
 		<ISBN>978-0-374-14670-2</ISBN>
 	</book>
+	<book>
+		<Title>Weapons of Math Destruction</Title>
+		<Tagline>How Big Data Increases Inequality and Threatens Democracy</Tagline>
+		<AuthorL>O'Neil</AuthorL>
+		<AuthorF>Cathy</AuthorF>
+		<Date>2022-03-21</Date>
+		<Pages>259</Pages>
+		<ISBN>978-0-553-41881-1</ISBN>
+	</book>
 </freefour>
