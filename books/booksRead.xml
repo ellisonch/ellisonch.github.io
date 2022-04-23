@@ -2629,4 +2629,13 @@
 		<Pages>259</Pages>
 		<ISBN>978-0-553-41881-1</ISBN>
 	</book>
+	<book>
+		<Title>All Systems Red</Title>
+		<Tagline>The Murderbot Diaries</Tagline>
+		<AuthorL>Wells</AuthorL>
+		<AuthorF>Martha</AuthorF>
+		<Date>2022-04-22</Date>
+		<Pages>152</Pages>
+		<ISBN>978-0-7653-9753-9</ISBN>
+	</book>
 </freefour>
