@@ -2638,4 +2638,13 @@
 		<Pages>152</Pages>
 		<ISBN>978-0-7653-9753-9</ISBN>
 	</book>
+	<book>
+		<Title>Guns, Germs, and Steel</Title>
+		<Tagline>The Fates of Human Societies</Tagline>
+		<AuthorL>Diamond</AuthorL>
+		<AuthorF>Jared</AuthorF>
+		<Date>2022-06-01</Date>
+		<Pages>518</Pages>
+		<ISBN>978-0-393-06131-4</ISBN>
+	</book>
 </freefour>
