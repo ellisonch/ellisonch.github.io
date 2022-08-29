@@ -2656,4 +2656,13 @@
 		<Pages>169</Pages>
 		<ISBN>9780061759581</ISBN>
 	</book>
+	<book>
+		<Title>Black Swan, The</Title>
+		<Tagline>The Impact of the Highly Improbable</Tagline>
+		<AuthorL>Taleb</AuthorL>
+		<AuthorF>Nassim</AuthorF>
+		<Date>2022-08-29</Date>
+		<Pages>444</Pages>
+		<ISBN>978-1-4000-6351-2</ISBN>
+	</book>
 </freefour>
