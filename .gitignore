@@ -4,3 +4,4 @@ _rawbib/
 .sass-cache
 *.exe
 a.out
+/ignored/
