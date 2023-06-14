@@ -1160,6 +1160,16 @@
 		<FakeISBN/>
 	</book>
 	<book>
+		<Title>Bear v. Shark</Title>
+		<Tagline>The Novel</Tagline>
+		<AuthorL>Bachelder</AuthorL>
+		<AuthorF>Chris</AuthorF>
+		<Date>2002-00-00</Date>
+		<Pages>256</Pages>
+		<ISBN>0743219473</ISBN>
+		<FakeISBN/>
+	</book>
+	<book>
 		<Title>In the Image of the Brain</Title>
 		<Tagline>Breaking the Barrier Between the Human Mind and Intelligent Machines</Tagline>
 		<AuthorL>Jubak</AuthorL>
