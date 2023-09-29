@@ -2684,4 +2684,13 @@
 		<Pages>416</Pages>
 		<ISBN>978-0-7653-8203-0</ISBN>
 	</book>
+	<book>
+		<Title>Dataclysm</Title>
+		<Tagline>Who We Are (When We Think No One's Looking)</Tagline>
+		<AuthorL>Rudder</AuthorL>
+		<AuthorF>Christian</AuthorF>
+		<Date>2023-09-29</Date>
+		<Pages>300</Pages>
+		<ISBN>978-0-385-34737-2</ISBN>
+	</book>
 </freefour>
