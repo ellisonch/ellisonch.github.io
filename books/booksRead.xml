@@ -2693,4 +2693,13 @@
 		<Pages>300</Pages>
 		<ISBN>978-0-385-34737-2</ISBN>
 	</book>
+	<book>
+		<Title>Music of the Dolphins, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Hesse</AuthorL>
+		<AuthorF>Karen</AuthorF>
+		<Date>2023-10-28</Date>
+		<Pages>181</Pages>
+		<ISBN>978-0-590-89798-3</ISBN>
+	</book>
 </freefour>
