@@ -2702,4 +2702,22 @@
 		<Pages>181</Pages>
 		<ISBN>978-0-590-89798-3</ISBN>
 	</book>
+	<book>
+		<Title>Classic Stories 1</Title>
+		<Tagline>From the Golden Apples of the Sun and R is for Rocket</Tagline>
+		<AuthorL>Bradbury</AuthorL>
+		<AuthorF>Ray</AuthorF>
+		<Date>2024-08-26</Date>
+		<Pages>348</Pages>
+		<ISBN>0-553-28637-4</ISBN>
+	</book>
+	<book>
+		<Title>Nonviolent Communication</Title>
+		<Tagline>A Language of Life</Tagline>
+		<AuthorL>Rosenberg</AuthorL>
+		<AuthorF>Marshall</AuthorF>
+		<Date>2024-08-31</Date>
+		<Pages>280</Pages>
+		<ISBN>978-1-892005-28-1</ISBN>
+	</book>
 </freefour>
