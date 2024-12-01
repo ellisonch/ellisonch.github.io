@@ -102,6 +102,14 @@
 		<Pages>134</Pages>
 	</book>
 	<book>
+		<Title>Dawn</Title>
+		<Tagline>Book One of the Xenogenesis Series</Tagline>
+		<AuthorL>Butler</AuthorL>
+		<AuthorF>Octavia</AuthorF>
+		<Date>2001-00-00</Date>
+		<Pages>248</Pages>
+	</book>
+	<book>
 		<Title>Angels in America</Title>
 		<Tagline>Millenium Approaches</Tagline>
 		<AuthorL>Kushner</AuthorL>
