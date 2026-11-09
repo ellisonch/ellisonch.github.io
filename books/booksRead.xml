@@ -2728,4 +2728,13 @@
 		<Pages>280</Pages>
 		<ISBN>978-1-892005-28-1</ISBN>
 	</book>
+	<book>
+		<Title>Dark Forest, The</Title>
+		<Tagline></Tagline>
+		<AuthorL>Liu</AuthorL>
+		<AuthorF>Cixin</AuthorF>
+		<Date>2026-11-08</Date>
+		<Pages>512</Pages>
+		<ISBN>9780765377081</ISBN>
+	</book>
 </freefour>
